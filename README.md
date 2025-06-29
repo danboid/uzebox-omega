@@ -2,7 +2,7 @@
 
 At the request of Uzebox forum member Danboid I created a new version of the official Uzebox PCB. He wanted an open source version which supports RGB SCART without the need for the expensive AD725 that fits into the official Uzebox case.
 
-<img src="Uzebox-Omega-v1.1.1-PCB" alt="PCB" />
+<img src="Uzebox-Omega-v1.1.1-PCB.png" alt="Omega PCB image" />
 
 ## What is the same
 * General schematic and function.
