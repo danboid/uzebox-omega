@@ -1,4 +1,4 @@
-<img src="http://uzebox.org/belogic.com/uzebox/images/new_banner3.jpg" alt="Uzebox logo" />
+<img src="omega-logo.png" alt="Uzebox Omega logo" />
 
 The Uzebox Omega is a modified version of the open source Uzebox games console that fits into the official Uzebox case and supports RGB SCART without the need for the expensive AD725 video chip.
 
