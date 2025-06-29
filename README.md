@@ -1,0 +1,48 @@
+<img src="http://uzebox.org/belogic.com/uzebox/images/new_banner3.jpg" alt="Uzebox logo" />
+
+At the request of Uzebox forum member Danboid I created a new version of the official Uzebox PCB. He wanted an open source version which supports RGB SCART without the need for the expensive AD725 that fits into the official Uzebox case.
+
+<img src="Uzebox-Omega-v1.1.1-PCB" alt="PCB" />
+
+## What is the same
+* General schematic and function.
+* Mechanical dimensions. All buttons, connectors, holes, etc. are in the same place, so you can use the original case.
+
+## New features
+* SCART RGB support. Because space is too limited for the giant SCART connector, we use a Sega Mega Drive 2 Mini-DIN 9 pin connector.
+* The AD725 chip and its surrounding parts are optional now. If you don't populate them RGB video works but you cannot use the composite video RCA jack.
+* Optional footprint for an USB to serial module on the bottom side below the SD card socket. You can use this as a power supply connector to power your Uzebox from a USB wall plug. Also you can use it for debug messages, it is connected to the second UART of the AVR CPU. This leads to some small incompatibilities, so you have to activate it by a couple of solder jumpers on the bottom side. See instructions below.
+* The ESP12 WiFi chip can be connected to the CPU's SPI and reset lines. With this is should be possible to flash the AVR CPU via WiFi but you would need a special firmware for the ESP for that, which isn't written yet.
+* You can use an WS2812 "Neopixel" LED instead of the normal LED. Again, there is no software for this yet. It uses the same pin as the original LED. A connector for adding more WS2812 LEDs is present so maybe you can create a colorful Uzebox sign in the top of your case?
+* Added mounting holes for lightpipe, so you can screw or tie it to the board instead of glueing.
+* I overworked all the traces to use a cleaner layout.
+
+## Instructions for using SCART
+I routed the SVideo signals to unused pins 5 (LUMA) and 6 (CHROMA), so with an adapter cable you can still use SVideo.
+See [this page](https://members.optusnet.com.au/eviltim/gamescart/gamescart.htm) for a compatible cable.
+
+<img src="mega2.png" alt="Mini Din 9 pinout" />
+ 
+## Instructions for using the ESP's SPI connection
+The ESP's SPI pins GPIO12, 13 and 14 can be connected to the SPI lines of the AVR CPU so you have a very fast communication line between the two CPUs. GPIO16 can also be connected to the reset of the AVR. It should be possible to flash the AVR from the ESP with this. Four solder jumpers on the bottom of the PCB under the ESP would need to be bridged to enable this.
+
+## Instructions for using the USB to serial module
+WARNING: You have to leave out the 5V regulator if you want to use USB as power source!!!
+
+The module has to be soldered to the bottom side of the PCB under the SD card socket. Because we cannot use holes there as they would conflict with the SD card, you have to solder the module directly onto the pads, or solder some angled pin hedaers onto the pad and put the module onto these. This method is perferred because it gives you a bit of distance between the SD card and the USB socket.
+
+There are two solder jumpers near the module. They are open by default. So the module is connected to nothing, only to 5V for power supply.
+If you close these jumpers the serial lines of the module will be connected to the second serial port of the AVR CPU. Because these are used by the standard Uzebox power button and ESP_RST pin there are two solder jumper which may connect these to PA5 and PA6 instead. This would need a software modification for software that uses the power button or the ESP_RST pin.
+
+These jumpers are connected by a small wire in compatibility position. Without cutting these lines everything is like the original Uzebox.
+
+## Instructions for WS2812 LED
+If you want a colourful Neopixel LED instead of the normal one, just solder a WS2812 mini LED instead of the normal one. You can also skip the LEDs resistor then. There is a 3-pin connector at the right side of the PCB to connect more LEDs but don't overload the power supply!
+Keep in mind that controlling such LEDs requires precise timing so it might be tricky to control such LEDs during video output.
+
+## To find out more, please check out the project's sites:
+* [Uzebox Omega Wiki page](https://uzebox.org/wiki/Omega): Uzebox Omega wiki page including build instructions, revision history etc.
+* [Getting started](https://uzebox.org/wiki/Getting_Started_on_the_Uzebox): How to install the toolchains, IDEs and build the codebase. Then move on to tutorials and the rest of the documentation.  
+* [Main website](https://uzebox.org): The main hub with news, links, downloads and more.
+* [Wiki](https://uzebox.org/wiki): All the project's documentation.
+* [Forums](https://uzebox.org/forums): Share your new game and discuss everything Uzebox.
