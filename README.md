@@ -1,6 +1,6 @@
 <img src="http://uzebox.org/belogic.com/uzebox/images/new_banner3.jpg" alt="Uzebox logo" />
 
-At the request of Uzebox forum member Danboid I created a new version of the official Uzebox PCB. He wanted an open source version which supports RGB SCART without the need for the expensive AD725 that fits into the official Uzebox case.
+The Uzebox Omega is a modified version of the open source Uzebox games console that fits into the official Uzebox case and supports RGB SCART without the need for the expensive AD725 video chip.
 
 <img src="Uzebox-Omega-v1.1.1-PCB.png" alt="Omega PCB image" />
 
