@@ -4,6 +4,8 @@ The Uzebox Omega is a modified version of the open source Uzebox games console t
 
 <img src="Uzebox-Omega-v1.1.1-PCB.png" alt="Omega PCB image" />
 
+<img src="Uzebox-Omega-v1.1.1-PCB-photo.jpg" alt="Omega PCB v1.1.1 photo" />
+
 ## What is the same
 * General schematic and function.
 * Mechanical dimensions. All buttons, connectors, holes, etc. are in the same place, so you can use the original case.
