@@ -106,6 +106,10 @@ Parts sourced from Digikey, Farnell equivalent order codes are listed in square 
 
 1   993-PYA15T120125-ND         AC/DC WALL MOUNT ADAPTER 12V        Barrel jack power adapter with interchangeable US/EU/UK/AU plugs
 
+1   102-6551-ND                 AC/DC WALL MOUNT ADAPTER 12V        12V 6 W AC/DC External Wall Mount PSU. Includes North American, Europe, UK, Australia and China plugs
+
+1   364-1253-ND                 9V 600ma DC wall mount, Positive Center, Barrel Plug, 2.1mm I.D. x 5.5mm O.D. x 9.5mm, North American plug only
+
 1   3373676                     MicroSD Memory Card Connector       Can only be used instead of the full sized SD on Uzebox Omega 1.3+
 
 4   SJ5303-7-ND                 BUMPON HEMISPHERE .44X.20 CLEAR
@@ -123,8 +127,6 @@ Parts sourced elsewhere
 2   SNES connectors         (Straight pin version) AliExpress.com   (SNESP1,SNESP2)                 Prefered model: https://vi.aliexpress.com/item/32828261927.html , alternative model: https://vi.aliexpress.com/item/32838396935.html
 
 1   PCB                     JLCPCB.com PCB Manufacturing service                                    See the following on how to order: https://uzebox.org/forums/viewtopic.php?p=33217#p33217 or use PCBWay.com
-
-1   364-1253-ND             9V 600ma DC wall mount, Positive Center, Barrel Plug, 2.1mm I.D. x 5.5mm O.D. x 9.5mm, North American plug
 
 2   SNES controllers        SNES/SFC Controller Classic Wired Gamepad                               https://vi.aliexpress.com/item/1005007109314003.html
 
