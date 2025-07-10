@@ -32,7 +32,7 @@ Parts sourced from Digikey, Farnell equivalent order codes are listed in square 
 
 4   301XBK-ND                   RES 301 OHM 1/4W 1% METAL FILM      (R2,R26,R27,R28) [9467149] or [1083195]
 
-3   562XBK-ND                   RES 562 OHM 1/4W 1% METAL FILM      (R29,R30,R31) [4141008] or [9502386]
+4   562XBK-ND                   RES 562 OHM 1/4W 1% METAL FILM      (R29,R30,R31,video fix) [4141008] or [9502386]
 
 3   3.16KXBK-ND                 RES 3.16K OHM 1/4W 1% METAL FILM    (R1,R8,R22) [1083307]
 
@@ -96,7 +96,7 @@ Parts sourced from Digikey, Farnell equivalent order codes are listed in square 
 
 --Optional Uzenet Interface--
 
-1   https://vi.aliexpress.com/item/32264795859.html                 ESP-12F WiFi Module. Not available from Farnell. DigiKey uses non compat. firmware.
+1   https://vi.aliexpress.com/item/32264795859.html                 ESP-12F WiFi Module. Not available from Farnell. DigiKey uses non compat. firmware
 
 1   445-8417-ND                 CAP CER 1UF 16V X7R RADIAL          (C17)
 
@@ -104,9 +104,9 @@ Parts sourced from Digikey, Farnell equivalent order codes are listed in square 
 
 --Optional Uzebox parts--
 
-1   3373676                     MicroSD Memory Card Connector       Can only be used instead of the full sized SD
+1   993-PYA15T120125-ND         AC/DC WALL MOUNT ADAPTER 12V        Barrel jack power adapter with interchangeable US/EU/UK/AU plugs
 
-1   4132960                     TP1032 PSU - 6 W, 9 V, 660 mA       w/ interchangeable AC pins (Aus, Euro, UK, US)
+1   3373676                     MicroSD Memory Card Connector       Can only be used instead of the full sized SD on Uzebox Omega 1.3+
 
 4   SJ5303-7-ND                 BUMPON HEMISPHERE .44X.20 CLEAR
 
@@ -124,7 +124,7 @@ Parts sourced elsewhere
 
 1   PCB                     JLCPCB.com PCB Manufacturing service                                    See the following on how to order: https://uzebox.org/forums/viewtopic.php?p=33217#p33217 or use PCBWay.com
 
-1   364-1253-ND             9V 600ma DC wall mount, Positive Center, Barrel Plug, 2.1mm I.D. x 5.5mm O.D. x 9.5mm
+1   364-1253-ND             9V 600ma DC wall mount, Positive Center, Barrel Plug, 2.1mm I.D. x 5.5mm O.D. x 9.5mm, North American plug
 
 2   SNES controllers        SNES/SFC Controller Classic Wired Gamepad                               https://vi.aliexpress.com/item/1005007109314003.html
 
