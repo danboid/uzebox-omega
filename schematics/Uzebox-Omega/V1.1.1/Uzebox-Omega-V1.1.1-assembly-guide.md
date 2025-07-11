@@ -37,28 +37,23 @@ For Uzebox Omega Revision V1.1.1
 | <img src="assets/guide/image42.png" alt="Power Jack" width="250" > | N/A 		 | DC power jack 		 |		 		 |
 | <img src="assets/guide/image36.png" alt="Audio RCA Jack" width="250" > | AUDIO 		 | Audio output RCA jack (Red or white) - optional		 |
 | <img src="assets/guide/image67.png" alt="Mini DIN RGB SCART AV output" width="250" > | X1 		 | A female, 9 pin mini DIN socket 			 		 |
-| <img src="assets/guide/image68.png" alt="Right-angled ISP programming port" width="250" > | ISP 		 | Right-angled Atmega644 programming port are preferred over vertical ones 					 		 |
+| <img src="assets/guide/image68.png" alt="Right-angled ISP programming port" width="250" > | ISP 		 | Right-angled Atmega644 programming ports are preferred over vertical ones. 					 		 |
 | <img src="assets/guide/image29.png" alt="Extension Header" width="250" > | EXT 		 | Extension port header 		 |
 | <img src="assets/guide/image52.png" alt="DIP-40 Socket" width="250" >  | N/A 	 | DIP-40 socket for the Atmega644 							 |
 | <img src="assets/guide/image12.png" alt="Tactile Switches" width="250" >  | POWER / RESET  | Tactile 	switches (x2) 				 |
-| <img src="assets/guide/image50.png" alt="SD Card Socket" width="250" >  | SD/MMC 		 | Secure Digital memory card socket. One of the two possible models has a soldering wing on the right side only.						 		 |
+| <img src="assets/guide/image50.png" alt="SD Card Socket" width="250" >  | SD/MMC 		 | Secure Digital memory card socket. One of the two possible models has a soldering wing on the right side only. |
 | <img src="assets/guide/image3.png" alt="SNES Connector" width="250" >  | SNESP1 SNESP2 	 		 | SNES gamepad connectors (x2)			 		 |
-| <img src="assets/guide/image39.png" alt="18pF Capacitors" width="250" >  | C1,C2,C18 		 | 18pF ceramic capacitors		 		 |
-| <img src="assets/guide/image21.jpg" alt="100nF Capacitors" width="250" >  | C3,C4,C5, C6,C7,C12 	 | .10uF (100nF) ceramic capacitors 	 |
-| <img src="assets/guide/image22.png" alt=".33uF Capactitor" width="250" >  | C11 | .33uF (330nF) ceramic capacitor 	 |
-| <img src="assets/guide/image57.png" alt="10uF Tanatalum Cpacitor" width="250" >  | C13  | 10uF tantalum capacitor	 |
-| <img src="assets/guide/image1.png" alt="1uF Capacitor" width="250" >  | C16,C20  | 1uf electrolytic capacitors 			 		 |
-| <img src="assets/guide/image15.png" alt="10uF Capacitors" width="250" >  | C8,C9 | 10uF electrolytic capacitors 			 |
-| <img src="assets/guide/image8.png" alt="220uF Capacitors" width="250" >  | C10,C14, C15  | 220uF 	electrolytic capacitors 		 |
+| <img src="assets/guide/image39.png" alt="18pF Capacitors" width="250" >  | C1,C2 		 | 18pF ceramic capacitors		 		 |
+| <img src="assets/guide/image21.jpg" alt="100nF Capacitors" width="250" >  | C3,C4,C5, C6,C7 	 | .10uF (100nF) ceramic capacitors 	 |
+| <img src="assets/guide/image22.png" alt=".33uF Capactitor" width="250" >  | C11 | .33uF (330nF) ceramic capacitor 	 |		 |		 |
 | <img src="assets/guide/image61.png" alt="75 Ohm Resistor" width="250" > | R7,R11, R19,R20, R24,R25  | Resistor 75Ω 1% (Violet, green, black, gold, brown)	 |
 | <img src="assets/guide/image41.png" alt="301 Ohm Resistor" width="250" >  | R2,R26, R27,R28  | Resistor 301Ω 1% (Orange, black, brown, black, brown) 		 |
-| <img src="assets/guide/image53.png" alt="560 Ohm Resistor" width="250" >  | R29,R30, R31 | Resistor 562Ω 1% (Green, blue, red, black, brown) 	 |
+| <img src="assets/guide/image53.png" alt="560 Ohm Resistor" width="250" >  | R29,R30, R31, video fix | Resistor 562Ω 1% (Green, blue, red, black, brown) 	 |
 | <img src="assets/guide/image48.png" alt="806 Ohm Resistor" width="250" >  | R3,R6,R10,R18 		 | Resistor 806Ω 1% (Gray, black, blue, black, brown)	 |
 | <img src="assets/guide/image4.png" alt="1.58K Ohm Resistor " width="250" >  | R5,R9,R17	 | Resistor 1.58KΩ 1% (Brown, green, gray, brown, brown)  |
 | <img src="assets/guide/image59.png" alt="3.16K Ohm Resitor" width="250" >  | R1,R8,R22	 | Resistor 3.16KΩ 1% (Orange, brown, blue, brown, brown) 	 |
 | <img src="assets/guide/image51.png" alt="Atmega644 Microcontroller" width="250" >  | MCU 	 | ATmega644 microcontroller 			 		 |
-| <img src="assets/guide/image54.png" alt="Crystal" width="250" >  | XTAL | 28.63636Mhz crystal  |
-| <img src="assets/guide/image47.png" alt="68mH Induction" width="250" >  | L1 		 | 68uH inductor 			 		 |
+| <img src="assets/guide/image54.png" alt="Crystal" width="250" >  | XTAL | 28.63636Mhz crystal  |			 		 |
 | <img src="assets/guide/image23.png" alt="3.3V Voltage Regulator" width="250" >  | IC1 	 | 3.3V voltage regulator  |
 | <img src="assets/guide/image33.png" alt="5V Voltage Regulator" width="250" >  | IC2 	 | 5.0V voltage regulator 		 |
 | <img src="assets/guide/image35.png" alt="Rectifier Diode" width="250" >  | D1  | Rectifier diode 			 |
