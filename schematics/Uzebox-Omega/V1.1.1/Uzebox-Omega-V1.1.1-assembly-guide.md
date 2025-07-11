@@ -135,11 +135,7 @@ To assemble this kit you will need the following tools:
 <table>
     <tr>
       <td width="50%"><img src="assets/guide/image31.jpg" alt="" width="600"></td>
-      <td>Assemble the video DAC by soldering <b>R1</b> (3.16KΩ), <b>R5</b> (1.58KΩ), <b>R6</b> (806Ω), <b>R8</b> (3.16KΩ), <b>R9</b> (1.58KΩ), <b>R10</b> (806Ω), <b>R17</b> (1.58KΩ), <b>R18</b> (806Ω) and <b>C3</b> (100nF), <b>C4</b> (100nF), <b>C5</b> (100nF).  Cut all remaining pins. Then solder <b>R7</b> (75Ω), <b>R11</b> (75Ω) and <b>R19</b> (75Ω).</td>
-    </tr>
-    <tr>
-        <td><img src="assets/guide/image20.jpg" alt="" width="600"></td>
-        <td>Assemble the composite video circuitry by soldering <b>C6</b>(100nF), <b>C7</b>(100nF), <b>C8</b>(10uF), <b>C9</b>(10uF), <b>C10</b>(220uF) and <b>R20</b>(75Ω).  Add the luma trap components <b>C18</b>(18pF) and <b>L1</b>(68uH inductor). Note that <b>L1</b> does not have a polarity so it can be mounted in any direction.  Finish by soldering the composite video jack <b>VIDEO</b> (yellow).</td>
+      <td>Assemble the video DAC by soldering <b>R1</b> (3.16KΩ), <b>R5</b> (1.58KΩ), <b>R6</b> (806Ω), <b>R8</b> (3.16KΩ), <b>R9</b> (1.58KΩ), <b>R10</b> (806Ω), <b>R17</b> (1.58KΩ), <b>R18</b> (806Ω) and <b>C3</b> (100nF), <b>C4</b> (100nF), <b>C5</b> (100nF).  Cut all remaining pins.</td>
     </tr>
     <tr>
         <td><img src="assets/guide/image18.jpg" alt="" width="600"> <img src="assets/guide/image62.png" alt="" width="600"></td>
