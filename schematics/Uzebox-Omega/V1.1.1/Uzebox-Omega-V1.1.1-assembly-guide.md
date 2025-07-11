@@ -78,7 +78,7 @@ To assemble this kit you will need the following tools:
 | Part | Description |
 | :---: | ----- |
 | <img src="assets/guide/image55.jpg" alt="power supply" width="150" >  | A standard 7-12VDC power supply with a center-positive, 5.5x2.1mm tip. |
-| <img src="assets/guide/image69.png" alt="Sega Mega Drive / Genesis 2 RGB SCART cable" width="150" >  | A Sega Mega Drive / Genesis 2 compatible 9 pin mini DIN to RGB SCART cable. [Shielded, CSYNC cables](https://uzebox.org/wiki/Uzebox_SCART_Interface#SCART_cables) are recommended for the best sound and video quality. |
+| <img src="assets/guide/image69.png" alt="Sega Mega Drive / Genesis 2 RGB SCART cable" width="150" >  | A Sega Mega Drive 2 / Sega Genesis 2 compatible 9 pin mini DIN to RGB SCART cable. [Shielded, CSYNC cables](https://uzebox.org/wiki/Uzebox_SCART_Interface#SCART_cables) are recommended for the best sound and video quality. |
 | <img src="assets/guide/image65.png" alt="SNES controller" width="150" >  | A [SNES controller.](https://uzebox.org/wiki/FAQ#Where_can_I_buy_Uzebox_compatible_controllers?) |
 | <img src="assets/guide/image63.jpg" alt="Solder flux" width="150" >  | Solder flux. Not strictly required but flux makes it much easier to solder the SNES connectors and SD card socket.|
 
