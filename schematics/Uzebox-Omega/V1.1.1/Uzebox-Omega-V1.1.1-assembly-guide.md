@@ -135,11 +135,11 @@ To assemble this kit you will need the following tools:
 <table>
     <tr>
       <td width="50%"><img src="assets/guide/image31.jpg" alt="" width="600"></td>
-      <td>Assemble the video DAC by soldering <b>R1</b> (3.16KΩ), <b>R5</b> (1.58KΩ), <b>R6</b> (806Ω), <b>R8</b> (3.16KΩ), <b>R9</b> (1.58KΩ), <b>R10</b> (806Ω), <b>R17</b> (1.58KΩ), <b>R18</b> (806Ω) and <b>C3</b> (100nF), <b>C4</b> (100nF), <b>C5</b> (100nF).  Cut all remaining pins.</td>
+      <td>Assemble the video DAC by soldering <b>R1</b> (3.16KΩ), <b>R4</b> (162Ω), <b>R5</b> (1.58KΩ), <b>R6</b> (806Ω), <b>R8</b> (3.16KΩ), <b>R9</b> (1.58KΩ), <b>R10</b> (806Ω), <b>R17</b> (1.58KΩ), <b>R18</b> (806Ω) and <b>C3</b> (100nF), <b>C4</b> (100nF), <b>C5</b> (100nF).  Cut all remaining pins and solder the 9 pin mini din socket.</td>
     </tr>
     <tr>
         <td><img src="assets/guide/image18.jpg" alt="" width="600"> <img src="assets/guide/image62.png" alt="" width="600"></td>
-        <td>Connect the audio and video outputs to your TV, then plug in power.  If all goes well, you should be greeted with the Megatris menu screen! Give yourself a double pat on the back!</td>
+        <td>Connect the SCART cable to your TV, then plug in power.  If all goes well, you should be greeted with the Megatris menu screen! Give yourself a double pat on the back!</td>
     </tr>
 </table>
 
