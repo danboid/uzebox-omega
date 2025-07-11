@@ -83,11 +83,6 @@ To assemble this kit you will need the following tools:
 | <img src="assets/guide/image63.jpg" alt="Solder flux" width="150" >  | Solder flux. Not strictly required but flux makes it much easier to solder the SNES connectors and SD card socket.|
 
 
-## Soldering the AD725 chip
-
-The trickiest part of building a Uzebox is soldering the AD725 video conversion chip. If you're new to SMD/SMT soldering, you can refer to [this video](https://www.youtube.com/watch?v=S7GWMNdyopo) which demonstrates how to solder the AD725.
-
-
 ## Building the kit
 ### Assembling the power supply section
 
