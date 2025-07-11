@@ -88,6 +88,10 @@ To assemble this kit you will need the following tools:
 
 <table>
     <tr>
+        <td width="50%"><img src="assets/guide/image70.png" alt="" width="600"></td>
+        <td>It is recommended that you start by soldering the power jack first. The main reason is that it is quite easy to solder the power jack at an angle on the PCBs that use the hole shaped power jack footprints instead of using slots. The power jacks can be tricky to desolder if you don't own a desoldering station/gun so if you mess up with soldering the power jack on stright then you may as well start over with a new PCB if you don't own any desoldering tools. This method minimises lost time and components compared to starting by soldering any of the other power components first. I use Blu Tack or some other brand of putty-like adhesive to keep the power jack in place whilst soldering it.</td>
+    </tr>
+    <tr>
         <td width="50%"><img src="assets/guide/image17.jpg" alt="" width="600"></td>
         <td>Using pliers, bend the pins of <b>IC2</b>, the 5V voltage regulator, at a 90 degrees angle as pictured.</td>
     </tr>
