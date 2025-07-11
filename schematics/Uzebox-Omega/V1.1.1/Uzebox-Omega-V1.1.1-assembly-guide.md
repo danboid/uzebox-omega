@@ -39,7 +39,7 @@ For Uzebox Omega Revision V1.1.1
 | <img src="assets/guide/image67.png" alt="Mini DIN RGB SCART AV output" width="250" > | X1 		 | A female, 9 pin mini DIN socket 			 		 |
 | <img src="assets/guide/image68.png" alt="Right-angled ISP programming port" width="250" > | ISP 		 | Right-angled Atmega644 programming ports are preferred over vertical ones. 					 		 |
 | <img src="assets/guide/image29.png" alt="Extension Header" width="250" > | EXT 		 | Extension port header 		 |
-| <img src="assets/guide/image52.png" alt="DIP-40 Socket" width="250" >  | N/A 	 | DIP-40 socket for the Atmega644 							 |
+| <img src="assets/guide/image52.png" alt="DIP-40 Socket" width="250" >  | MCU 	 | DIP-40 socket for the Atmega644 							 |
 | <img src="assets/guide/image12.png" alt="Tactile Switches" width="250" >  | POWER / RESET  | Tactile 	switches (x2) 				 |
 | <img src="assets/guide/image50.png" alt="SD Card Socket" width="250" >  | SD/MMC 		 | Secure Digital memory card socket. One of the two possible models has a soldering wing on the right side only. |
 | <img src="assets/guide/image3.png" alt="SNES Connector" width="250" >  | SNESP1 SNESP2 	 		 | SNES gamepad connectors (x2)			 		 |
