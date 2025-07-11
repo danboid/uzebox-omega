@@ -89,11 +89,11 @@ To assemble this kit you will need the following tools:
 <table>
     <tr>
         <td width="50%"><img src="assets/guide/image70.png" alt="" width="600"></td>
-        <td>It is recommended that you start by soldering the power jack first. The main reason being it is quite easy to solder the power jack at an adverse angle with the PCBs that use the circular power jack footprints instead of using slots, as used on later revisions of the Omega. The power jacks can be tricky to desolder if you don't own a desoldering station/gun so if you mess up by not soldering the power jack on straight enough then you may as well start over with a new PCB if you don't own any desoldering tools. If your power jack is too far out of alignment it can prevent you correctly inserting the mini din AV socket. I use Blu Tack or some other putty-like adhesive to keep the power jack correctly aligned whilst soldering it.</td>
+        <td>If your power jack is too far out of alignment it can prevent you correctly inserting the mini din AV socket. I use Blu Tack or some other putty-like adhesive to keep the power jack correctly aligned whilst soldering it.</td>
     </tr>
     <tr>
         <td><img src="assets/guide/image24.jpg" alt="" width="600"></td>
-        <td>Insert the DC barrel jack. Bend the pins on the soldering side to keep it held firmly in place. To ensure it's soldered flat, you can also put the 40 pin DIP socket underneath the PCB to level it up. Be sure to put plenty of solder on the three pins so that the jack is securely mounted.</td>
+        <td>Insert the DC barrel jack. It is recommended that you start by soldering the power jack first. The main reason being it is quite easy to solder the power jack at an angle with the PCBs that use the circular power jack footprints instead of using slots, as used on later revisions of the Omega. The power jack can be tricky to desolder if you don't own a desoldering station/gun so if you mess up by not soldering the power jack on straight enough then you may as well start over with a new PCB if you don't own any desoldering tools.<br/><br/>Bend the pins on the soldering side to keep it held firmly in place. To ensure it's soldered flat, you can also put the 40 pin DIP socket underneath the PCB to level it up. Be sure to put plenty of solder on the three pins so that the jack is securely mounted.</td>
     </tr>
     <tr>
         <td width="50%"><img src="assets/guide/image17.jpg" alt="" width="600"></td>
