@@ -34,10 +34,9 @@ For Uzebox Omega Revision V1.1.1
 | Component Image | Schematic Reference | Description |
 | ----- | ----- | ----- |
 | <img src="assets/guide/image66.png" alt="Uzebox Omega PCB" width="250" > | N/A 		 | Uzebox Omega printed circuit board (PCB). <br/><br/> <b>NOTE:</b> This tutorial was made using PCB rev 1.1.1. Later revisions may have a slightly different arrangement, but part references will stay the same. For example, Uzebox Omega V1.2 to V1.4 use RCA sockets with a different footprint compared to Omega < v1.1.X, later revisions use slots for the power adapter and have support for using a microSD socket. Relevant differences will be described in the assembly steps. 		 |
-| <img src="assets/guide/image42.png" alt="Power Jack" width="250" > | U5 		 | DC power jack 		 |
-| <img src="assets/guide/image26.png" alt="Video RCA Jack" width="250" > | VIDEO 		 | Composite video RCA jack (Yellow) 			 		 |
-| <img src="assets/guide/image36.png" alt="Audio RCA Jack" width="250" > | AUDIO 		 | Audio output RCA jack (Red or white) 		 |
-| <img src="assets/guide/image46.png" alt="S-Video Jack" width="250" > | SVIDEO 		 | S-VIDEO output jack 			 		 |
+| <img src="assets/guide/image42.png" alt="Power Jack" width="250" > | U5 		 | DC power jack 		 |		 		 |
+| <img src="assets/guide/image36.png" alt="Audio RCA Jack" width="250" > | AUDIO 		 | Audio output RCA jack (Red or white) - optional		 |
+| <img src="assets/guide/image67.png" alt="Mini DIN RGB SCART AV output" width="250" > | X1 		 | A female, 9 pin mini DIN socket 			 		 |
 | <img src="assets/guide/image30.png" alt="ISP Programming Port" width="250" > | ISP 		 | Atmega644 programming port 					 		 |
 | <img src="assets/guide/image29.png" alt="Extension Header" width="250" > | EXT 		 | Extension port header 		 |
 | <img src="assets/guide/image52.png" alt="DIP-40 Socket" width="250" >  | N/A 	 | DIP-40 socket for the Atmega644 							 |
