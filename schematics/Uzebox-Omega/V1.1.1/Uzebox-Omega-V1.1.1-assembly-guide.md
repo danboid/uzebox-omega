@@ -37,7 +37,7 @@ For Uzebox Omega Revision V1.1.1
 | <img src="assets/guide/image42.png" alt="Power Jack" width="250" > | U5 		 | DC power jack 		 |		 		 |
 | <img src="assets/guide/image36.png" alt="Audio RCA Jack" width="250" > | AUDIO 		 | Audio output RCA jack (Red or white) - optional		 |
 | <img src="assets/guide/image67.png" alt="Mini DIN RGB SCART AV output" width="250" > | X1 		 | A female, 9 pin mini DIN socket 			 		 |
-| <img src="assets/guide/image30.png" alt="ISP Programming Port" width="250" > | ISP 		 | Atmega644 programming port 					 		 |
+| <img src="assets/guide/image68.png" alt="Right-angled ISP programming port" width="250" > | ISP 		 | Atmega644 programming port 					 		 |
 | <img src="assets/guide/image29.png" alt="Extension Header" width="250" > | EXT 		 | Extension port header 		 |
 | <img src="assets/guide/image52.png" alt="DIP-40 Socket" width="250" >  | N/A 	 | DIP-40 socket for the Atmega644 							 |
 | <img src="assets/guide/image12.png" alt="Tactile Switches" width="250" >  | POWER / RESET  | Tactile 	switches (x2) 				 |
