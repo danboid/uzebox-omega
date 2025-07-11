@@ -141,10 +141,6 @@ To assemble this kit you will need the following tools:
         <td><img src="assets/guide/image18.jpg" alt="" width="600"> <img src="assets/guide/image62.png" alt="" width="600"></td>
         <td>Connect the audio and video outputs to your TV, then plug in power.  If all goes well, you should be greeted with the Megatris menu screen! Give yourself a double pat on the back!</td>
     </tr>
-    <tr>
-        <td><img src="assets/guide/image11.jpg" alt="" width="600"></td>
-        <td>Finish up the video section by adding the <b>S-VIDEO</b> connector, <b>R24</b>(75Ω), <b>R25</b>(75Ω) and then <b>C13</b>(10uF tantalum), <b>C14</b>(220uF) and <b>C15</b>(220uF).  Note that <b>C13</b> is a tantalum capacitor and has polarity. If you look closely, one pin has a little <b>+</b> sign next to it. Be sure to insert this pin in the matching hole on the PCB.</td> 
-    </tr>
 </table>
 
 ### Assembling the SD card section
