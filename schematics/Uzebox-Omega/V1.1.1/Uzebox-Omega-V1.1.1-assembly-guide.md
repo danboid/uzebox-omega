@@ -33,7 +33,7 @@ For Uzebox Omega Revision V1.1.1
 -->
 | Component Image | Schematic Reference | Description |
 | ----- | ----- | ----- |
-| <img src="assets/guide/image60.png" alt="Uzebox PCB" width="250" > | N/A 		 | Uzebox printed circuit board (PCB) with pre-soldered AD725 chip. <br/><br/> <b>NOTE:</b> This tutorial was made using PCB rev 1.0. Later revisions may have a slightly different arrangement, but part references will stay the same. For example PCB v1.3.1+ reorganized the SD card voltage divider resistors in order to accommodate the [Uzenet interface](https://uzebox.org/wiki/ESP8266). Relevant differences will be described in the assembly  steps. 		 |
+| <img src="assets/guide/image66.png" alt="Uzebox Omega PCB" width="250" > | N/A 		 | Uzebox printed circuit board (PCB) with pre-soldered AD725 chip. <br/><br/> <b>NOTE:</b> This tutorial was made using PCB rev 1.0. Later revisions may have a slightly different arrangement, but part references will stay the same. For example PCB v1.3.1+ reorganized the SD card voltage divider resistors in order to accommodate the [Uzenet interface](https://uzebox.org/wiki/ESP8266). Relevant differences will be described in the assembly  steps. 		 |
 | <img src="assets/guide/image42.png" alt="Power Jack" width="250" > | U5 		 | DC power jack 		 |
 | <img src="assets/guide/image26.png" alt="Video RCA Jack" width="250" > | VIDEO 		 | Composite video RCA jack (Yellow) 			 		 |
 | <img src="assets/guide/image36.png" alt="Audio RCA Jack" width="250" > | AUDIO 		 | Audio output RCA jack (Red or white) 		 |
