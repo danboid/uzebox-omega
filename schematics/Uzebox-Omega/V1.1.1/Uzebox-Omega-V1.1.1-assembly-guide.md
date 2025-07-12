@@ -109,7 +109,7 @@ To assemble this kit you will need the following tools:
     </tr>
     <tr>
         <td><img src="assets/guide/image45.jpg" alt="" width="600"></td>
-        <td>Add <b>C11</b> (.33uF), <b>C12</b> (100nF), <b>C16</b> (1uF), <b>C20</b> (1uF) and <b>IC1</b> (3.3v regulator).  The electrolytic capacitors (the black cans) have a polarity. The negative pin is marked with a white stripe and little minus signs on the side. Ensure the opposite pin (the longest one) inserts in the hole which has a little "+" next to it.  Solder all pins and remove excess wire. That completes the power supply section.</td>
+        <td>Add <b>C11</b> (.33uF), <b>C12</b> (100nF), <b>C16</b> (1uF), <b>C20</b> (1uF) and <b>IC1</b> (3.3v regulator). The electrolytic capacitors (the black or dark blue cans) have a polarity. The negative pin is marked with a white stripe and little minus signs on the side. Ensure the opposite pin (the longest one) inserts in the hole which has a little "+" next to it. Solder all pins and remove excess wire. That completes the power supply section.</td>
     </tr>
     <tr>
         <td><img src="assets/guide/image13.jpg" alt="" width="600"></td>
