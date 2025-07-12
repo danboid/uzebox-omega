@@ -105,7 +105,7 @@ To assemble this kit you will need the following tools:
     </tr>
     <tr>
         <td><img src="assets/guide/image40.jpg" alt="" width="600"></td>
-        <td>Using the cutters, cut the pins excess wire. Watch out that those flying wire bits don't end up in your eyes!</td>
+        <td>Using the cutters, cut the pins excess wire. It is recommended that you wear eye protection when using wire cutters. You should hold wires whilst cutting them to stop the wire bits flying into someones eye.!</td>
     </tr>
     <tr>
         <td><img src="assets/guide/image45.jpg" alt="" width="600"></td>
