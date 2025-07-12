@@ -113,7 +113,7 @@ To assemble this kit you will need the following tools:
     </tr>
     <tr>
         <td><img src="assets/guide/image13.jpg" alt="" width="600"></td>
-        <td>If you have a multimeter, let’s test what we have so far. Switch your multimeter to DC voltage measurement mode. Plug in the power supply and probe pin 1 and 7 on the P1 SNES connector footprint. If all goes well, you should measure around 5V. Unplug the power.</td>
+        <td>If you have a multimeter, let’s test what we have so far. Switch your multimeter to DC voltage measurement mode. Plug in the power supply and probe pin 1 and 7 on the P1 SNES connector footprint. If all goes well, you should measure around 5V. Unplug the power.<br/><br/>If you aren't getting around 5V, check your soldering. Its more likely to be a soldering issue than faulty components if you are new to soldering and the components are new. Heat up your soldering iron and touch up all of the solder joints made so far then try another measurement. If you have a hot air gun you can try reflowing the joints. Heating the solder until you can see it start to melt without then using a solder sucker or wick to remove any of it can often fix substandard soldering.'</td>
     </tr>
 </table>
 
