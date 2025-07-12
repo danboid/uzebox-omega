@@ -1,4 +1,4 @@
-Uzebox Omega v1.1.1 BOM - based upon the BOM of Uzebox v1.3.3. Last updated 10th July 2025.
+Uzebox Omega v1.1.1 BOM - based upon the BOM of Uzebox v1.3.3. Last updated 12th July 2025.
 
 Parts sourced from Digikey, Farnell equivalent order codes are listed in square brackets.
 
@@ -24,7 +24,7 @@ Parts sourced from Digikey, Farnell equivalent order codes are listed in square 
 
 2   399-ESK105M350AE3AA-ND      CAP ELECT 1UF 50V VR RADIAL         (C16,C20) [9451358]
 
-5   478-3192-ND                 CAP CER .10UF 50V 20% RADIAL        (C3,C4,C5,C12) [3289388]
+6   478-3192-ND                 CAP CER .10UF 50V 20% RADIAL        (C3,C4,C5,C6,C7,C12) [3289388]
 
 1   478-5733-ND                 CAP CER .33UF 50V Z5U 20% RADIAL    (C11) [4143699]
 
