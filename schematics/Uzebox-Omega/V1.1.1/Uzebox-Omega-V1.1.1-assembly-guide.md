@@ -97,7 +97,7 @@ To assemble this kit you will need the following tools:
     </tr>
     <tr>
         <td width="50%"><img src="assets/guide/image17.jpg" alt="" width="600"></td>
-        <td>Using pliers, bend the pins of <b>IC2</b>, the 5V voltage regulator, at a 90 degrees angle as pictured.</td>
+        <td>Using pliers, bend the pins of <b>IC2</b>, the 5V voltage regulator, at a 90 degrees angle as pictured. Alternately, insert the legs into the PCB up to the notches then bend the top part until it is lying flat on the PCB. Whilst holding the regulator flat, use the edge of a ruler or maybe a file to bend the regulators legs flat against the PCB on the underside of the board.</td>
     </tr>
     <tr>
         <td><img src="assets/guide/image5.jpg" alt="" width="600"></td>
