@@ -44,9 +44,8 @@ For Uzebox Omega Revision V1.1.1
 | <img src="assets/guide/image50.png" alt="SD Card Socket" width="250" >  | SD/MMC 		 | Secure Digital memory card socket. One of the two possible models has a soldering wing on the right side only. |
 | <img src="assets/guide/image3.png" alt="SNES Connector" width="250" >  | SNESP1 SNESP2 	 		 | SNES gamepad connectors (x2)			 		 |
 | <img src="assets/guide/image39.png" alt="18pF Capacitors" width="250" >  | C1,C2 		 | 18pF ceramic capacitors		 		 |
-| <img src="assets/guide/image21.jpg" alt="100nF Capacitors" width="250" >  | C3,C4,C5, C6,C7 	 | .10uF (100nF) ceramic capacitors 	 |
+| <img src="assets/guide/image21.jpg" alt="100nF Capacitors" width="250" >  | C3,C4,C5, C12 	 | .10uF (100nF) ceramic capacitors 	 |
 | <img src="assets/guide/image22.png" alt=".33uF Capactitor" width="250" >  | C11 | .33uF (330nF) ceramic capacitor 	 |		 |		 |
-| <img src="assets/guide/image61.png" alt="75 Ohm Resistor" width="250" > | R7,R11, R19,R20, R24,R25  | Resistor 75Ω 1% (Violet, green, black, gold, brown)	 |
 | <img src="assets/guide/image41.png" alt="301 Ohm Resistor" width="250" >  | R2,R26, R27,R28  | Resistor 301Ω 1% (Orange, black, brown, black, brown) 		 |
 | <img src="assets/guide/image53.png" alt="560 Ohm Resistor" width="250" >  | R29,R30, R31, video fix | Resistor 562Ω 1% (Green, blue, red, black, brown) 	 |
 | <img src="assets/guide/image48.png" alt="806 Ohm Resistor" width="250" >  | R3,R6,R10,R18 		 | Resistor 806Ω 1% (Gray, black, blue, black, brown)	 |
