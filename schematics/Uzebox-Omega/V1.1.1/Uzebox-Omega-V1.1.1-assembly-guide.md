@@ -130,7 +130,7 @@ To assemble this kit you will need the following tools:
     </tr>
     <tr>
         <td><img src="assets/guide/image73.png" alt="" width="600"></td>
-        <td>Connect the RCA jack of the Uzebox to an RCA input on an amplifier or a TV with an audio jack input. Make sure the volume of the TV or amp is about half way up and then attach DC power to the Omega. The Uzebox powers on automatically and boots straight into whichever rom you chose to flash so you should be able to hear your chosen rom running if all is well. Congratulations if you can hear it!</td>
+        <td>Connect the RCA audio jack of the Uzebox to an RCA input on an amplifier or a TV with a RCA audio input jack. Make sure the volume of the TV or amp is about half way up and then attach power to the Omega. The Uzebox powers on automatically and boots straight into whichever ROM you chose to flash so you should be able to hear your chosen rom running if all is well.<br/><br/>Congratulations if you can hear it!</td>
     </tr>
 </table>
 
