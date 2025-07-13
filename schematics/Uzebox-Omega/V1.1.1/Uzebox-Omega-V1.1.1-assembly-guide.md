@@ -125,8 +125,8 @@ To assemble this kit you will need the following tools:
         <td>Add the DIP-40 socket and ensure the DIP socket notch is aligned with the MCU's notch as drawn on the PCB. Whilst holding the DIP socket in place on the PCB, you can use a ruler or a file to bend the sockets legs inwards to hold it steady whilst soldering. Add <b>XTAL</b> (crystal), <b>C1</b> and <b>C2</b> (18pF), <b>R3</b> (806Ω), <b>R22</b> (3.16KΩ), <b>AUDIO</b> jack (white or red) and the <b>ISP header.</b></td>
     </tr>
     <tr>
-        <td><img src="assets/guide/image6.jpg" alt="" width="600"></td>
-        <td>Insert <b>MCU</b> (ATmega644) into the DIP-40 socket. Notice one end of the chip has a notch, it goes the same way as the socket.  Plug in a RCA cable to your TV's audio input and plug the power supply. If all goes well, you should hear the Uzebox logo bell sound! Give yourself a pat on the back! </td>
+        <td><img src="assets/guide/image72.png" alt="" width="600"></td>
+        <td>Insert <b>MCU</b> (ATmega644) into the DIP-40 socket. Notice one end of the chip has a notch, it goes the same way as the socket.<br/><br/>To test that the audio jack and microcontroller are working, we need to use avrdude to flash the fuse settings of the microcontroller and also write the .hex of a Uzebox game to it. This requires that you connect your Uzebox's ISP header to a USB port on your computer using any avrdude compatible programmer. The commands to flash the fuse setting and a rom are covered on the [Uzebox wiki's avrdude page.](https://uzebox.org/wiki/Avrdude). Note that your Uzebox does not need to be powered when programming it, it is best if it is disconnected from the mains when programming it.<br/><br/>You can use any Uzebox rom that you can find a .hex file for to do this test, the only requirement is that the rom must automatically start playing music or sound. The Arkanoid demo in the Uzebox repo starts playing music as soon as it runs. I prefer to use [IKD.hex](https://uzebox.org/forums/viewtopic.php?p=33065#p33065) because it's a good example of the Uzebox sound engine.</td>
     </tr>
 </table>
 
