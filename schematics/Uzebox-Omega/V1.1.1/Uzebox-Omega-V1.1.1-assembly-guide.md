@@ -121,8 +121,8 @@ To assemble this kit you will need the following tools:
 
 <table>
     <tr>
-        <td width="50%"><img src="assets/guide/image44.jpg" alt="" width="600"></td>
-        <td>Add the DIP-40 socket and ensure the DIP socket notch is aligned with the MCU's notch as drawn on the PCB. Whilst holding the DIP socket in its place on the PCB, you can use a ruler or a file to bend its two rows of legs inwards to hold it in place whilst soldering. Add <b>XTAL</b> (crystal), <b>C1</b> and <b>C2</b> (18pF), <b>R3</b> (806Ω), <b>R22</b> (3.16KΩ) and <b>AUDIO</b> jack (white or red).</td>
+        <td width="50%"><img src="assets/guide/image71.png" alt="" width="600"></td>
+        <td>Add the DIP-40 socket and ensure the DIP socket notch is aligned with the MCU's notch as drawn on the PCB. Whilst holding the DIP socket in place on the PCB, you can use a ruler or a file to bend the sockets legs inwards to hold it steady whilst soldering. Add <b>XTAL</b> (crystal), <b>C1</b> and <b>C2</b> (18pF), <b>R3</b> (806Ω), <b>R22</b> (3.16KΩ), <b>AUDIO</b> jack (white or red) and the <b>ISP header.</b></td>
     </tr>
     <tr>
         <td><img src="assets/guide/image6.jpg" alt="" width="600"></td>
