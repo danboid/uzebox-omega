@@ -128,6 +128,10 @@ To assemble this kit you will need the following tools:
         <td><img src="assets/guide/image72.png" alt="" width="600"></td>
         <td>Insert <b>MCU</b> (ATmega644) into the DIP-40 socket. Notice one end of the chip has a notch, it goes the same way as the socket.<br/><br/>To test that the audio jack and microcontroller are working, we need to use avrdude to flash the fuse settings of the microcontroller and also write the .hex of a Uzebox game to it. This requires that you connect your Uzebox's ISP header to a USB port on your computer using any avrdude compatible programmer. The commands to flash the fuse setting and a rom are covered on the Uzebox wiki's avrdude page (https://uzebox.org/wiki/Avrdude) Note that your Uzebox does not need to be powered when using avrdude, it is recommended that it is disconnected from the mains during the flashing process.<br/><br/>You can use any Uzebox rom that you can find a .hex file for to do this audio test, the only requirement is that the rom must automatically start playing music or sound. The Arkanoid demo in the Uzebox repo starts playing music as soon as it runs. I prefer to use IKD.hex because it's a good example of the Uzebox sound engine.</td>
     </tr>
+    <tr>
+        <td><img src="assets/guide/image73.png" alt="" width="600"></td>
+        <td>Connect the RCA jack of the Uzebox to an RCA input on an amplifier or a TV with an audio jack input. Make sure the volume of the TV or amp is about half way up and then attach DC power to the Omega. The Uzebox powers on automatically and boots straight into whichever rom you chose to flash so you should be able to hear your chosen rom running if all is well. Congratulations if you can hear it!</td>
+    </tr>
 </table>
 
 ### Assembling the video section
