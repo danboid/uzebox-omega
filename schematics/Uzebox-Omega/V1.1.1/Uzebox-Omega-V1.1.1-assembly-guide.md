@@ -130,7 +130,7 @@ To assemble this kit you will need the following tools:
     </tr>
     <tr>
         <td><img src="assets/guide/image73.png" alt="" width="600"></td>
-        <td>Connect the RCA audio jack of the Uzebox to an RCA input on an amplifier or a TV with a RCA audio input jack. Make sure the volume of the TV or amp is about half way up and then attach power to the Omega. The Uzebox powers on automatically and boots straight into whichever ROM you chose to flash so you should be able to hear your chosen rom running if all is well.<br/><br/>Congratulations if you can hear it!</td>
+        <td>Connect the RCA audio jack of the Uzebox to an RCA input on an amplifier or a TV with a RCA audio input jack. Make sure the volume of the TV or amp is about half way up and then attach power to the Omega. The Uzebox powers on automatically and boots straight into whichever ROM you chose to flash so you should be able to hear your chosen rom running if all is well.<br/><br/>Congratulations if you can hear it, give yourself a pat on the back!</td>
     </tr>
 </table>
 
@@ -142,8 +142,8 @@ To assemble this kit you will need the following tools:
       <td>Assemble the video DAC by soldering <b>R1</b> (3.16KΩ), <b>R4</b> (162Ω), <b>R5</b> (1.58KΩ), <b>R6</b> (806Ω), <b>R8</b> (3.16KΩ), <b>R9</b> (1.58KΩ), <b>R10</b> (806Ω), <b>R17</b> (1.58KΩ), <b>R18</b> (806Ω) and <b>C3</b> (100nF), <b>C4</b> (100nF), <b>C5</b> (100nF). Cut all remaining pins and solder the 9 pin mini din socket.<br/><br/>NOTE: <b>R4</b> wasn't required by Uzebox v1.3.3. If you don't have a 162Ω resistor you can use one in the range 150Ω to 220Ω.</td>
     </tr>
     <tr>
-        <td><img src="assets/guide/image18.jpg" alt="" width="600"> <img src="assets/guide/image62.png" alt="" width="600"></td>
-        <td>Connect the SCART cable to your TV, then plug in power.  If all goes well, you should be greeted with the Megatris menu screen! Give yourself a double pat on the back!</td>
+        <td><img src="assets/guide/image75.png" alt="" width="600"> <img src="assets/guide/image76.png" alt="" width="600"></td>
+        <td>Connect the SCART cable to your TV, then plug in power. If you are using a CSYNC cable and your TV is configured to the right input, you should be able to see the video and hear the audio output from your Uzebox on your TV. Give yourself a double pat on the back!<br/><br/>If you are using a CVBS cable or an OSSC converter, you have to apply the [video sync fix](https://uzebox.org/wiki/Omega#Known_issues_and_fixes). It is recommended that all Omega users apply the video sync fix.</td>
     </tr>
 </table>
 
