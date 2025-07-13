@@ -138,8 +138,8 @@ To assemble this kit you will need the following tools:
 
 <table>
     <tr>
-      <td width="50%"><img src="assets/guide/image31.jpg" alt="" width="600"></td>
-      <td>Assemble the video DAC by soldering <b>R1</b> (3.16KΩ), <b>R4</b> (162Ω), <b>R5</b> (1.58KΩ), <b>R6</b> (806Ω), <b>R8</b> (3.16KΩ), <b>R9</b> (1.58KΩ), <b>R10</b> (806Ω), <b>R17</b> (1.58KΩ), <b>R18</b> (806Ω) and <b>C3</b> (100nF), <b>C4</b> (100nF), <b>C5</b> (100nF).  Cut all remaining pins and solder the 9 pin mini din socket.</td>
+      <td width="50%"><img src="assets/guide/image74.png" alt="" width="600"></td>
+      <td>Assemble the video DAC by soldering <b>R1</b> (3.16KΩ), <b>R4</b> (162Ω), <b>R5</b> (1.58KΩ), <b>R6</b> (806Ω), <b>R8</b> (3.16KΩ), <b>R9</b> (1.58KΩ), <b>R10</b> (806Ω), <b>R17</b> (1.58KΩ), <b>R18</b> (806Ω) and <b>C3</b> (100nF), <b>C4</b> (100nF), <b>C5</b> (100nF). Cut all remaining pins and solder the 9 pin mini din socket.<br/><br/>NOTE: <b>R4</b> wasn't required by Uzebox v1.3.3. If you don't have a 162Ω resistor you can use one in the range 150Ω to 220Ω.</td>
     </tr>
     <tr>
         <td><img src="assets/guide/image18.jpg" alt="" width="600"> <img src="assets/guide/image62.png" alt="" width="600"></td>
