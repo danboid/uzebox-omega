@@ -181,7 +181,7 @@ To assemble this kit you will need the following tools:
 </table>
 
 ## Troubleshooting
-Head to the [Uzebox forum](https://uzebox.org/forums) for support assembling the Uzebox. The [Uzebox wiki](https://uzebox.org/wiki) also contains a wealth of information.
+Head to the [Uzebox forum](https://uzebox.org/forums) for support assembling the Uzebox Omega. The [Uzebox wiki](https://uzebox.org/wiki) also contains a wealth of information.
 
 ## Assembly guides for older Uzebox versions
 To assemble older version of the Uzebox (before version 5.0 / F5), you can refer to the [archived assembly guide](http://uzebox.org/files/UzeboxAssemblyGuideV1.7.pdf).
@@ -190,7 +190,7 @@ To assemble older version of the Uzebox (before version 5.0 / F5), you can refer
 An ISP programmer is required to flash the ATMega644 with the bootloader and games. Common models are:
 * Atmel/Microchip AVRISP MK2 clones (Digikey, Amazon, AliExpress)
 * Olimex AVR-ISP-MK2 (Mouser)
-* Arduino (Everywhere)
+* Arduino (Everywhere. Search for "USBASP AVR programmer")
 
 <br/>
 <img src="assets/guide/cc-bysa.png" alt="Creative Commons BY-SA">
