@@ -154,8 +154,8 @@ To assemble this kit you will need the following tools:
         <td>The SD card socket is the trickiest component to solder, as the only SMD component of the Omega. Make sure the PCB is well lit and do not try to to solder the SD card socket if its late, you're angry or intoxicated.<br/><br/>If your SD socket includes one, keep the plastic retainer in place when soldering. It is recommended that you apply a thin layer of solder flux to the SD socket pads before soldering and that you use both a narrow gauge of solder wire, such as 0.3 to 0.5 mm and use a narrow, finely pointed soldering iron tip.<br/><br/>If you have a PCB assembly station or some helping hands availble to keep the board steady then you'll want to use them when soldering the SD socket, otherwise you may wish to clamp the PCB to your desk to keep it steady.<br/><br/>You may find it helpful to solder the two SD socket pads that are nearest to the edge of the PCB first to keep it anchored before you solder the rest of the SD socket legs.<br/><br/>Feel free to remove the MCU from its DIP socket to give you a bit more room whilst soldering and try to avoid soldering the SD socket legs to the case of the SD card socket.</td>
     </tr>
     <tr>
-        <td><img src="assets/guide/image56.jpg" alt="" width="600"></td>
-        <td>Complete the SD interface by soldering the voltage dividers <b>R26</b>(301Ω), <b>R27</b>(301Ω), <b>R28</b>(301Ω), <b>R29</b>(562Ω), <b>R30</b>(562Ω) and <b>R31</b>(562Ω). <b>NOTE:</b> The layout for PCB revision V1.3.1 and later is slightly different but uses the same parts.</td>
+        <td><img src="assets/guide/image78.png" alt="" width="600"></td>
+        <td>Complete the SD interface by soldering the voltage dividers <b>R26</b>(301Ω), <b>R27</b>(301Ω), <b>R28</b>(301Ω), <b>R29</b>(562Ω), <b>R30</b>(562Ω) and <b>R31</b>(562Ω) and then use <b>avrdude</b> to flash the bootloader (Bootloader5.hex) to the Uzebox so that you can test the SD card socket works by powering on your Uzebox abd then inserting a FAT16 formatted SD card with some .uze files on it to see if the bootloader lists the programs on the card.</td>
     </tr>
 </table>
 
