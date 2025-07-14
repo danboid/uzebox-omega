@@ -151,7 +151,7 @@ To assemble this kit you will need the following tools:
 <table>
     <tr>
         <td width="50%"><img src="assets/guide/image43.jpg" alt="" width="600"></td>
-        <td>Place the SD socket on the PCB, keeping the plastic retainer in place when soldering (if available). It is recommended that you apply a thin layer of solder flux to the SD socket pads before soldering and that you use a narrow gauge of solder wire, such as 0.3 to 0.5 mm. Align the socket, fitting the underlying plastic pins to the matching PCB holes. Then solder the anchor points and the small protruding wings. Their location and count vary depending on the socket version included in the kit. For the Uzebox starter pack, they are located at the top. Solder the remaining pins.</td>
+        <td>Place the SD socket on the PCB, keeping the plastic retainer in place when soldering (if available). It is recommended that you apply a thin layer of solder flux to the SD socket pads before soldering and that you use both a narrow gauge of solder wire, such as 0.3 to 0.5 mm and use a narrow, finely pointed soldering iron tip.<br/><br/> Align the socket, fitting the underlying plastic pins to the matching PCB holes. Then solder the anchor points and the small protruding wings. Their location and count vary depending on the socket version included in the kit. For the Uzebox starter pack, they are located at the top. Solder the remaining pins.</td>
     </tr>
     <tr>
         <td><img src="assets/guide/image56.jpg" alt="" width="600"></td>
