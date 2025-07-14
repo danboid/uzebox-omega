@@ -155,7 +155,7 @@ To assemble this kit you will need the following tools:
     </tr>
     <tr>
         <td><img src="assets/guide/image78.png" alt="" width="600"></td>
-        <td>Complete the SD interface by soldering the voltage dividers <b>R26</b>(301Ω), <b>R27</b>(301Ω), <b>R28</b>(301Ω), <b>R29</b>(562Ω), <b>R30</b>(562Ω) and <b>R31</b>(562Ω) and then use <b>avrdude</b> to flash the bootloader (Bootloader5.hex) to the Uzebox so that you can test the SD card socket works by powering on your Uzebox abd then inserting a [FAT16 formatted SD card](https://uzebox.org/wiki/FAQ#What_is_the_recommended_way_to_format_a_SD_card_for_use_with_the_Uzebox?) with some .uze files on it to see if the bootloader lists the programs on the card.</td>
+        <td>Complete the SD interface by soldering the voltage dividers <b>R26</b>(301Ω), <b>R27</b>(301Ω), <b>R28</b>(301Ω), <b>R29</b>(562Ω), <b>R30</b>(562Ω) and <b>R31</b>(562Ω) and then use <b>avrdude</b> to flash the bootloader (Bootloader5.hex) to the Uzebox so that you can test the SD card socket works by powering on your Uzebox abd then inserting a FAT16 formatted SD card (see https://uzebox.org/wiki/FAQ#What_is_the_recommended_way_to_format_a_SD_card_for_use_with_the_Uzebox?) with some .uze files on it to see if the bootloader lists the programs on the card.</td>
     </tr>
 </table>
 
