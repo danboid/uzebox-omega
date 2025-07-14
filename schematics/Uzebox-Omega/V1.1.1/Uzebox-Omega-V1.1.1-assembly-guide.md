@@ -142,7 +142,7 @@ To assemble this kit you will need the following tools:
     </tr>
     <tr>
         <td><img src="assets/guide/image75.png" alt="" width="600"> <img src="assets/guide/image76.png" alt="" width="600"></td>
-        <td>Connect the SCART cable to your TV, then plug in power. If you are using a CSYNC cable and your TV is configured to the right input, you should be able to see the video and hear the audio output from your Uzebox on your TV. Give yourself a double pat on the back!<br/><br/>If you are using a CVBS cable or an OSSC converter, you have to apply the video sync fix (https://uzebox.org/wiki/Omega#Known_issues_and_fixes). It is recommended that all Omega users (v1.x to v1.4) apply the video sync fix.</td>
+        <td>Connect the SCART cable to your TV, then plug in power. If you are using a CSYNC cable and your TV is configured to the right input, you should be able to see the video and hear the audio output from your Uzebox on your TV. Give yourself a double pat on the back!<br/><br/>If you are using a CVBS cable or an OSSC converter, you have to apply the video sync fix (https://uzebox.org/wiki/Omega#Known_issues_and_fixes). It is recommended that all Omega users of versions v1.0 to v1.4 apply the video sync fix.</td>
     </tr>
 </table>
 
