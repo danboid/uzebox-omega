@@ -57,7 +57,6 @@ For Uzebox Omega Revision V1.1.1
 | <img src="assets/guide/image33.png" alt="5V Voltage Regulator" width="250" >  | IC2 	 | 5.0V voltage regulator 		 |
 | <img src="assets/guide/image35.png" alt="Rectifier Diode" width="250" >  | D1  | Rectifier diode 			 |
 | <img src="assets/guide/image58.png" alt="LED" width="250" >  | LED1	 | Power	LED  |
-| <img src="assets/guide/image38.png" alt="Bumpons" width="250" >  | N/A 	 | Bumpons  |
 
 ## Tools required
 
