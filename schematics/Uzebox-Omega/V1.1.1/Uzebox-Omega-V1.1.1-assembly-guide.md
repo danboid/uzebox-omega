@@ -38,7 +38,7 @@ For Uzebox Omega Revision V1.1.1
 | <img src="assets/guide/image36.png" alt="Audio RCA Jack" width="250" > | AUDIO 		 | Audio output RCA jack (Red or white) - optional		 |
 | <img src="assets/guide/image67.png" alt="Mini DIN RGB SCART AV output" width="250" > | X1 		 | A female, 9 pin mini DIN socket 			 		 |
 | <img src="assets/guide/image68.png" alt="Right-angled ISP programming port" width="250" > | ISP 		 | Right-angled Atmega644 programming ports are preferred over vertical ones. 					 		 |
-| <img src="assets/guide/image29.png" alt="Extension Header" width="250" > | EXT 		 | Extension port header 		 |
+| <img src="assets/guide/image29.png" alt="Extension Header" width="250" > | EXT 		 | Extension port header - optional		 |
 | <img src="assets/guide/image52.png" alt="DIP-40 Socket" width="250" >  | MCU 	 | DIP-40 socket for the Atmega644 							 |
 | <img src="assets/guide/image12.png" alt="Tactile Switches" width="250" >  | POWER / RESET  | Tactile 	switches (x2) 				 |
 | <img src="assets/guide/image50.png" alt="SD Card Socket" width="250" >  | SD/MMC 		 | Secure Digital memory card socket. One of the two possible models has a soldering wing on the right side only. |
@@ -57,6 +57,7 @@ For Uzebox Omega Revision V1.1.1
 | <img src="assets/guide/image33.png" alt="5V Voltage Regulator" width="250" >  | IC2 	 | 5.0V voltage regulator 		 |
 | <img src="assets/guide/image35.png" alt="Rectifier Diode" width="250" >  | D1  | Rectifier diode 			 |
 | <img src="assets/guide/image58.png" alt="LED" width="250" >  | LED1	 | Power	LED  |
+| <img src="assets/guide/image80.jpg" alt="DIP-8 Socket" width="250" >  | U6	 | SPI RAM socket  |
 
 ## Tools required
 
