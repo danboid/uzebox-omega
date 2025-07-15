@@ -57,7 +57,8 @@ For Uzebox Omega Revision V1.1.1
 | <img src="assets/guide/image33.png" alt="5V Voltage Regulator" width="250" >  | IC2 	 | 5.0V voltage regulator 		 |
 | <img src="assets/guide/image35.png" alt="Rectifier Diode" width="250" >  | D1  | Rectifier diode 			 |
 | <img src="assets/guide/image58.png" alt="LED" width="250" >  | LED1	 | Power	LED  |
-| <img src="assets/guide/image80.jpg" alt="DIP-8 Socket" width="250" >  | U6	 | SPI RAM socket  |
+| <img src="assets/guide/image80.jpg" alt="DIP-8 Socket" width="250" >  | U6	 | SPI SRAM socket - optional |
+| <img src="assets/guide/image81.jpg" alt="1Mb SPI SRAM" width="250" >  | U6	 | 1Mb (128KB) SPI SRAM IC - optional |
 
 ## Tools required
 
