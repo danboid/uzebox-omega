@@ -169,10 +169,6 @@ To assemble this kit you will need the following tools:
     <tr>
         <td width="50%"><img src="assets/guide/image19.jpg" alt="" width="600"></td> 
         <td>Add the <b>RESET</b> and <b>POWER</b> switches, <b>R2</b>(301Ω) and <b>LED1</b>. The longest pin on the LED is the anode and must be inserted in the hole with a little <b>+</b> next to it. Ensure the tactile switches are mounted horizontally as pictured.</td>
-        </tr>
-        <tr>
-        <td><img src="assets/guide/image27.jpg" alt="" width="600"></td>
-        <td>Place the 4 rubber bumpers as pictured. It's important to have them in place to help soldering the SNES connectors.</td> 
     </tr>
     <tr>
         <td><img src="assets/guide/image32.jpg" alt="" width="600"></td>
