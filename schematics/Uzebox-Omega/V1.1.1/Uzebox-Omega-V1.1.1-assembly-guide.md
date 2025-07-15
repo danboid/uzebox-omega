@@ -163,16 +163,16 @@ To assemble this kit you will need the following tools:
 
 <table>
     <tr>
+        <td><img src="assets/guide/image79.png" alt="" width="600"></td>
+        <td>Solder the SNES connectors. It is highly recommended that you apply some solder flux to the SNES connector pads before positioning the connectors, this will help the solder stick to the pads.<br/><br/>The Uzebox PCB needs to be raised by a few millimeters so that the pins of the SNES connectors lie flat on the pads with no gap. You can use a couple of credit/swipe cards stacked upon one another or several sheets of paper inserted below the PCB (but not under the connectors) to elevate the PCB to the right height so that the connector pins lie flat on the pads.<br/><br/>Hold the connectors firmly and center the pins in the middle of the pads, ensuring that there is no gap between the connector casing and the PCB. Once the connector is correctly positioned, use a small amount of Blu Tack or similar putty to keep the connectors in place whilst soldering. Having a SNES controller connected whilst soldering will prevent any of the pins getting misaligned by the heat of the soldering iron.<br/><br/>Begin soldering by heating just the pad for a second or two then both the pin and the pad then add solder, a lot of solder! Gently stroke the solder from the pin to the pad to bond the two. It’s easier to solder pins at both extremities of the connector first. The SNES connector plastic won't withstand a ton of heat before becoming loose, so solder them quickly. Use enough solder to ensure it will have good mechanical resistance.</td>
+    </tr>
+    <tr>
         <td width="50%"><img src="assets/guide/image19.jpg" alt="" width="600"></td> 
         <td>Add the <b>RESET</b> and <b>POWER</b> switches, <b>R2</b>(301Ω) and <b>LED1</b>. The longest pin on the LED is the anode and must be inserted in the hole with a little <b>+</b> next to it. Ensure the tactile switches are mounted horizontally as pictured.</td>
         </tr>
         <tr>
         <td><img src="assets/guide/image27.jpg" alt="" width="600"></td>
         <td>Place the 4 rubber bumpers as pictured. It's important to have them in place to help soldering the SNES connectors.</td> 
-    </tr>
-    <tr>
-        <td><img src="assets/guide/image10.jpg" alt="" width="600"></td>
-        <td>Solder the SNES connectors. The SNES connector plastic won't withstand a ton of heat before becoming loose, so solder them quickly. It is highly recommended that you apply some solder flux to the SNES connector pads before positioning the connectors. Hold the connectors firmly and center the pins in the middle of the pads. You may find it helpful to use a small amount of Blu Tack or similar to keep the connectors in place whilst soldering. Begin by heating just the pad for a second or two then both the pin and the pad then add solder, a lot of solder! It’s easier to solder pins at both extremities of the connector first. Again, be sure to add enough solder (as pictured) to be sure it will have good mechanical resistance.</td>
     </tr>
     <tr>
         <td><img src="assets/guide/image32.jpg" alt="" width="600"></td>
