@@ -4,7 +4,7 @@ The Uzebox Omega is a modified version of the Uzebox open source games console t
 
 <img src="Uzebox-Omega-v1.1.1-PCB.png" alt="Omega PCB image" />
 
-<img src="Uzebox-Omega-v1.1.1-PCB-photo.jpg" alt="Omega PCB v1.1.1 photo" />
+<img src="schematics/Uzebox-Omega/V1.1.1/assets/guide/image82.png" alt="Omega v1.1.1 PCB photo" />
 
 ## What is the same
 * General schematic and functions inherited from the Uzebox v1.3.3.
@@ -47,5 +47,5 @@ Keep in mind that controlling such LEDs requires precise timing so it might be t
 * [Uzebox Omega Wiki page](https://uzebox.org/wiki/Omega): Uzebox Omega wiki page including build instructions, revision history etc.
 * [Getting started](https://uzebox.org/wiki/Getting_Started_on_the_Uzebox): How to install the toolchains, IDEs and build the codebase. Then move on to tutorials and the rest of the documentation.  
 * [Main website](https://uzebox.org): The main hub with news, links, downloads and more.
-* [Wiki](https://uzebox.org/wiki): All the project's documentation.
 * [Forums](https://uzebox.org/forums): Share your new game and discuss everything Uzebox.
+* [Wiki](https://uzebox.org/wiki): All of the Uzebox project's documentation.
