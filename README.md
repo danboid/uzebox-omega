@@ -1,29 +1,29 @@
 <img src="omega-logo.png" alt="Uzebox Omega logo" />
 
-The Uzebox Omega is a modified version of the open source Uzebox games console that fits into the official Uzebox case and supports RGB SCART without the need for the expensive AD725 video chip.
+The Uzebox Omega is a modified version of the Uzebox open source games console that fits into the official Uzebox case and supports RGB SCART without the need for the expensive AD725 video chip.
 
 <img src="Uzebox-Omega-v1.1.1-PCB.png" alt="Omega PCB image" />
 
 <img src="Uzebox-Omega-v1.1.1-PCB-photo.jpg" alt="Omega PCB v1.1.1 photo" />
 
 ## What is the same
-* General schematic and function.
+* General schematic and functions inherited from the Uzebox v1.3.3.
 * Mechanical dimensions. All buttons, connectors, holes, etc. are in the same place, so you can use the original case.
 
 ## New features
-* SCART RGB support. Because space is too limited for the giant SCART connector, we use a Sega Mega Drive 2 Mini-DIN 9 pin connector.
+* SCART RGB support. Because space is too limited for the giant SCART connector, we use a Sega Mega Drive 2 compatible 9 pin Mini DIN connector and cables.
+
+<img src="mega2.png" alt="Mini Din 9 pinout" />
+
 * The AD725 chip and its surrounding parts are optional now. If you don't populate them RGB video works but you cannot use the composite video RCA jack.
 * Optional footprint for an USB to serial module on the bottom side below the SD card socket. You can use this as a power supply connector to power your Uzebox from a USB wall plug. Also you can use it for debug messages, it is connected to the second UART of the AVR CPU. This leads to some small incompatibilities, so you have to activate it by a couple of solder jumpers on the bottom side. See instructions below.
-* The ESP12 WiFi chip can be connected to the CPU's SPI and reset lines. With this is should be possible to flash the AVR CPU via WiFi but you would need a special firmware for the ESP for that, which isn't written yet.
 * You can use an WS2812 "Neopixel" LED instead of the normal LED. Again, there is no software for this yet. It uses the same pin as the original LED. A connector for adding more WS2812 LEDs is present so maybe you can create a colorful Uzebox sign in the top of your case?
 * Added mounting holes for lightpipe, so you can screw or tie it to the board instead of glueing.
 * I overworked all the traces to use a cleaner layout.
+* The ESP12 WiFi chip can be connected to the CPU's SPI and reset lines. With this is should be possible to flash the AVR CPU via WiFi but you would need a special firmware for the ESP for that, which isn't written yet.
 
 ## Instructions for using SCART
-I routed the SVideo signals to unused pins 5 (LUMA) and 6 (CHROMA), so with an adapter cable you can still use SVideo.
-See [this page](https://members.optusnet.com.au/eviltim/gamescart/gamescart.htm) for a compatible cable.
-
-<img src="mega2.png" alt="Mini Din 9 pinout" />
+I routed the SVideo signals to unused pins 5 (LUMA) and 6 (CHROMA), so with an adapter cable you can use SVideo.
  
 ## Instructions for using the ESP's SPI connection
 The ESP's SPI pins GPIO12, 13 and 14 can be connected to the SPI lines of the AVR CPU so you have a very fast communication line between the two CPUs. GPIO16 can also be connected to the reset of the AVR. It should be possible to flash the AVR from the ESP with this. Four solder jumpers on the bottom of the PCB under the ESP would need to be bridged to enable this.
@@ -43,6 +43,7 @@ If you want a colourful Neopixel LED instead of the normal one, just solder a WS
 Keep in mind that controlling such LEDs requires precise timing so it might be tricky to control such LEDs during video output.
 
 ## To find out more, please check out the project's sites:
+* [Uzebox Omega Assembly Guide](https://github.com/danboid/uzebox-omega/blob/main/schematics/Uzebox-Omega/V1.1.1/Uzebox-Omega-V1.1.1-assembly-guide.md): How to build a Uzebox Omega.
 * [Uzebox Omega Wiki page](https://uzebox.org/wiki/Omega): Uzebox Omega wiki page including build instructions, revision history etc.
 * [Getting started](https://uzebox.org/wiki/Getting_Started_on_the_Uzebox): How to install the toolchains, IDEs and build the codebase. Then move on to tutorials and the rest of the documentation.  
 * [Main website](https://uzebox.org): The main hub with news, links, downloads and more.
