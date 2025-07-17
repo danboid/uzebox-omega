@@ -17,13 +17,13 @@ The Uzebox Omega is a modified version of the Uzebox open source games console t
 
 * The AD725 chip and its surrounding parts are optional now. If you don't populate them RGB video works but you cannot use the composite video RCA jack.
 * Optional footprint for an USB to serial module on the bottom side below the SD card socket. You can use this as a power supply connector to power your Uzebox from a USB wall plug. Also you can use it for debug messages, it is connected to the second UART of the AVR CPU. This leads to some small incompatibilities, so you have to activate it by a couple of solder jumpers on the bottom side. See instructions below.
-* You can use an WS2812 "Neopixel" LED instead of the normal LED. Again, there is no software for this yet. It uses the same pin as the original LED. A connector for adding more WS2812 LEDs is present so maybe you can create a colorful Uzebox sign in the top of your case?
-* Added mounting holes for lightpipe, so you can screw or tie it to the board instead of glueing.
+* You can use an WS2812 "Neopixel" LED instead of the normal LED. There is no Uzebox kernel software for this yet. It uses the same pin as the original LED. A connector for adding more WS2812 LEDs is present so maybe you can create a colourful Uzebox sign in the top of your case?
+* Added mounting holes for the lightpipe. You can screw or tie it to the board instead of glueing.
 * I overworked all the traces to use a cleaner layout.
-* The ESP12 WiFi chip can be connected to the CPU's SPI and reset lines. With this is should be possible to flash the AVR CPU via WiFi but you would need a special firmware for the ESP for that, which isn't written yet.
+* The ESP12 WiFi chip can be connected to the CPU's SPI and reset lines. With this it should be possible to flash the AVR MCU via WiFi but ee would need a custom Uzenet/ESP8266 firmware to enable this.
 
-## Instructions for using SCART
-I routed the SVideo signals to unused pins 5 (LUMA) and 6 (CHROMA), so with an adapter cable you can use SVideo.
+## SVideo adapter
+I routed the SVideo signals to unused pins 5 (LUMA) and 6 (CHROMA), so it should be possible to create a 9 pin mini din to SVideo adapter however this adapter is currently unimplemented and untested.
  
 ## Instructions for using the ESP's SPI connection
 The ESP's SPI pins GPIO12, 13 and 14 can be connected to the SPI lines of the AVR CPU so you have a very fast communication line between the two CPUs. GPIO16 can also be connected to the reset of the AVR. It should be possible to flash the AVR from the ESP with this. Four solder jumpers on the bottom of the PCB under the ESP would need to be bridged to enable this.
