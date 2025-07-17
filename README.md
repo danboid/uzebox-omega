@@ -2,7 +2,7 @@
 
 The Uzebox Omega is a modified version of the Uzebox open source games console that fits into the official Uzebox case and supports RGB SCART without the need for the expensive AD725 video chip.
 
-<img src="Uzebox-Omega-v1.1.1-PCB.png" alt="Omega PCB image" />
+<img src="Uzebox-Omega-v1.1.1-PCB.png" alt="Uzebox Omega PCB" />
 
 <img src="schematics/Uzebox-Omega/V1.1.1/assets/guide/image82.png" alt="Omega v1.1.1 PCB photo" />
 
