@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/guide/image49.jpg" alt="Uzebox V5.0" width="600" ></p>
 
 # Uzebox Omega assembly guide
-For Uzebox Omega Revision V1.0 to v1.4
+For Uzebox Omega Revision V1.1 to v1.4
 
 > [!NOTE]  
 > This assembly guide was written with consideration of the electronics beginner who only has a minimal set of tools. Some of the methods described in this guide are makeshift solutions for those without more professional tooling. Use the method which works best for you.
