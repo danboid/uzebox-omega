@@ -23,7 +23,7 @@ The Uzebox Omega is a modified version of the Uzebox open source games console t
 * The ESP12 WiFi chip can be connected to the CPU's SPI and reset lines. With this it should be possible to flash the AVR MCU via WiFi but we would need a custom Uzenet/ESP8266 firmware to enable this.
 
 ## SVideo adapter
-The SVideo signals are routed to unused pins 5 (LUMA) and 6 (CHROMA) of the mini din socket so it should be possible to create a 9 pin mini din to SVideo adapter however such an adapter is currently unimplemented and untested.
+The SVideo signals are routed to unused pins 5 (LUMA) and 6 (CHROMA) of the mini DIN socket so it should be possible to create a 9 pin mini DIN to SVideo adapter or cable.
  
 ## Instructions for using the ESP's SPI connection
 The ESP's SPI pins GPIO12, 13 and 14 can be connected to the SPI lines of the AVR CPU so you have a very fast communication line between the two CPUs. GPIO16 can also be connected to the reset of the AVR. It should be possible to flash the AVR from the ESP with this. Four solder jumpers on the bottom of the PCB under the ESP would need to be bridged to enable this.
