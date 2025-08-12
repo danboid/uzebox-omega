@@ -142,11 +142,11 @@ To assemble this kit you will need the following tools:
       <td>Assemble the video DAC by soldering <b>R1</b> (3.16KΩ), <b>R4</b> (162Ω), <b>R5</b> (1.58KΩ), <b>R6</b> (806Ω), <b>R8</b> (3.16KΩ), <b>R9</b> (1.58KΩ), <b>R10</b> (806Ω), <b>R17</b> (1.58KΩ), <b>R18</b> (806Ω) and <b>C3</b> (100nF), <b>C4</b> (100nF), <b>C5</b> (100nF). Cut all remaining pins and solder the 9 pin mini DIN socket.<br/><br/>NOTE: <b>R4</b> wasn't required by Uzebox v1.3.3. If you don't have a 162Ω resistor you can use one in the range 150Ω to 220Ω.</td>
     </tr>
     <tr>
-        <td><img src="assets/guide/image75.png" alt="" width="600"> <img src="assets/guide/image76.png" alt="" width="600"></td>
+        <td><img src="assets/guide/image76.png" alt="" width="600"></td>
         <td>Connect the SCART cable to your TV (or a <a href="https://uzebox.org/wiki/Uzebox_SCART_Interface#SCART_to_HDMI_converters">RGB SCART to HDMI converter</a>), then plug in the power. If you are using a CSYNC cable and your TV is configured to the right input, you should be able to see the video and hear the audio output from your Uzebox on your display. Give yourself a double pat on the back!</td>
     </tr>
     <tr>
-        <td><img src="assets/guide/image84.jpg" alt="" width="600"> <img src="assets/guide/image84.jpg" alt="" width="600"></td>
+        <td><img src="assets/guide/image84.jpg" alt="" width="600"></td>
         <td>If you are using a CVBS cable you have to apply the <a href="https://uzebox.org/wiki/Omega#Known_issues_and_fixes">video sync fix.</a> It is recommended that users of Omega versions v1.1 to v1.4 apply this fix. You should use an approx 562 Ohm resistor for the video sync fix.<br/><br/>This image shows an alternate wiring for the resistor on v1.4 models outlined in white. Note that you will get dulled, less vibrant colours using this fix on the Omega v1.4 so you should stick to using CSYNC cables for Omega v1.4.</td>
     </tr>
 </table>
