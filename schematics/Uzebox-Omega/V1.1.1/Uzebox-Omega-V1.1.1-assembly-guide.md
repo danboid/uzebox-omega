@@ -143,7 +143,11 @@ To assemble this kit you will need the following tools:
     </tr>
     <tr>
         <td><img src="assets/guide/image75.png" alt="" width="600"> <img src="assets/guide/image76.png" alt="" width="600"></td>
-        <td>Connect the SCART cable to your TV (or a <a href="https://uzebox.org/wiki/Uzebox_SCART_Interface#SCART_to_HDMI_converters">RGB SCART to HDMI converter</a>), then plug in the power. If you are using a CSYNC cable and your TV is configured to the right input, you should be able to see the video and hear the audio output from your Uzebox on your display. Give yourself a double pat on the back!<br/><br/>If you are using a CVBS cable you have to apply the <a href="https://uzebox.org/wiki/Omega#Known_issues_and_fixes">video sync fix.</a> It is recommended that all Omega users of versions v1.1 to v1.4 apply the video sync fix.</td>
+        <td>Connect the SCART cable to your TV (or a <a href="https://uzebox.org/wiki/Uzebox_SCART_Interface#SCART_to_HDMI_converters">RGB SCART to HDMI converter</a>), then plug in the power. If you are using a CSYNC cable and your TV is configured to the right input, you should be able to see the video and hear the audio output from your Uzebox on your display. Give yourself a double pat on the back!</td>
+    </tr>
+    <tr>
+        <td><img src="assets/guide/image84.jpg" alt="" width="600"> <img src="assets/guide/image84.jpg" alt="" width="600"></td>
+        <td>If you are using a CVBS cable you have to apply the <a href="https://uzebox.org/wiki/Omega#Known_issues_and_fixes">video sync fix.</a> It is recommended that users of Omega versions v1.1 to v1.4 apply this fix. You should use an approx 562 Ohm resistor for the video sync fix.<br/><br/>This image shows an alternate wiring for the resistor on v1.4 models outlined in white. Note that you will get dulled, less vibrant colours using this fix on the Omega v1.4 so you should stick to using CSYNC cables for Omega v1.4.</td>
     </tr>
 </table>
 
