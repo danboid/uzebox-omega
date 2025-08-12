@@ -193,6 +193,21 @@ An ISP programmer is required to flash the ATMega644 with the bootloader and gam
 * Olimex AVR-ISP-MK2 (Mouser)
 * Arduino (Everywhere. Search for "USBASP AVR programmer")
 
+## Recommended shielded CSTNC RGB SCART cables
+
+[Sega Mega Drive 2 / Genesis 2 RGB SCART PACKAPUNCH PRO CABLE](https://www.retrogamingcables.co.uk/sega-mega-drive-2-sega-genesis-2-rgb-av-scart-cable-tv-lead)
+
+[Sega Mega Drive/Genesis 2 RGB SCART Cable](https://www.retroupgrades.co.uk/product/md2-scart/)
+
+## Uzebox Omega compatible SCART to HDMI converters
+
+The advantages of the [LEVELHIKE HDMI converter cable](https://www.amazon.com/gp/product/B07Z5W7QS7/) are its small size and its integrated cable means you don't also need to buy a shielded cable to get good sound quality from the SCART cable. The down side is that it is only really compatible with the Mega Drive and the Uzebox Omega.
+
+[LiNKFOR SCART to HDMI Converter](https://www.amazon.co.uk/LiNKFOR-Converter-Adapter-Supports-Headphone-Scart-HDMI/dp/B078JJMR5J/)
+
+[deleyCON SCART to HDMI Converter](https://www.amazon.es/dp/B06XR89RZN?ref=ppx_yo2ov_dt_b_fed_asin_title)
+
+The Open Source Scan Converter has trouble maintaining video sync for some (most) Uzebox programs that use sound and thus is not recommended.
 <br/>
 <img src="assets/guide/cc-bysa.png" alt="Creative Commons BY-SA">
 
