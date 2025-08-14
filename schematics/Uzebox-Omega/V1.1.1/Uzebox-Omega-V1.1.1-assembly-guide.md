@@ -147,7 +147,7 @@ To assemble this kit you will need the following tools:
     </tr>
     <tr>
         <td><img src="assets/guide/image84.jpg" alt="" width="600"></td>
-        <td>If you are using a CVBS cable you have to apply the <a href="https://uzebox.org/wiki/Omega#Known_issues_and_fixes">video sync fix.</a> It is recommended that users of Omega versions v1.1 to v1.4 apply this fix. You should use an approx 562 Ohm resistor for the video sync fix.<br/><br/>This image shows an alternate wiring for the resistor on v1.4 models outlined in white. Note that you will get dulled, less vibrant colours using this fix on the Omega v1.4 so you should stick to using CSYNC cables for Omega v1.4.</td>
+        <td>If you are using a CVBS cable you have to apply the <a href="https://uzebox.org/wiki/Omega#Known_issues_and_fixes">video sync fix.</a> It is recommended that users of Omega versions v1.1 to v1.4 apply this fix. Use a resistor rated at least 100mW and between 300R and 600R. The Uzebox Omega BOM uses a 562R 250mW resistor for this fix.<br/><br/>This image shows an alternate wiring for the resistor on v1.4 models outlined in white. Note that you will get dulled, less vibrant colours using this fix on the Omega v1.4 so you should stick to using CSYNC cables for Omega v1.4.</td>
     </tr>
 </table>
 
