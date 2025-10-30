@@ -4,7 +4,7 @@ The Uzebox Omega is a modified version of the Uzebox open source games console t
 
 <img src="Uzebox-Omega-v1.1.1-PCB.png" alt="Uzebox Omega PCB" />
 
-<img src="schematics/Uzebox-Omega/V1.1.1/assets/guide/image82.png" alt="Omega v1.1.1 PCB photo" />
+<img src="1st-factory-built-Uzebox-Omega.jpg" alt="A PCBWay-built Uzebox Omega photo" />
 
 ## What is the same
 * General schematic and functions inherited from the Uzebox v1.3.3.
