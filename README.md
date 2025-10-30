@@ -43,6 +43,7 @@ If you want a colourful Neopixel LED instead of the normal one, just solder a WS
 Keep in mind that controlling such LEDs requires precise timing so it might be tricky to control such LEDs during video output.
 
 ## To find out more, please check out the project's sites:
+* [Uzebox Omega PCBWay Shared Project](https://www.pcbway.com/project/shareproject/Uzebox_Omega_games_console_77d0d74a.html): Buy a pre-assembled Uzebox Omega from PCBWay.
 * [Uzebox Omega Assembly Guide](https://github.com/danboid/uzebox-omega/blob/main/schematics/Uzebox-Omega/V1.1.1/Uzebox-Omega-V1.1.1-assembly-guide.md): How to build a Uzebox Omega.
 * [Uzebox Omega Wiki page](https://uzebox.org/wiki/Omega): Uzebox Omega wiki page including build instructions, revision history etc.
 * [Getting started](https://uzebox.org/wiki/Getting_Started_on_the_Uzebox): How to install the toolchains, IDEs and build the codebase. Then move on to tutorials and the rest of the documentation.  
