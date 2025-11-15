@@ -1,6 +1,6 @@
-Uzebox Omega v1.1.1 BOM - based upon the BOM of Uzebox v1.3.3. Last updated 13th July 2025.
+Uzebox Omega v1.1.1 BOM - based upon the BOM of Uzebox v1.3.3. Last updated 15th November 2025.
 
-Parts sourced from Digikey, Farnell equivalent order codes are listed in square brackets.
+Parts sourced from Digikey. Farnell equivalent order codes are listed in square brackets.
 
 -----------------------------------------------------------------------------------------
 
@@ -86,7 +86,7 @@ Parts sourced from Digikey, Farnell equivalent order codes are listed in square 
 
 
 
---Optional SPI RAM module--     SPI RAM is required to run UzeboxPC and to use video mode 748.
+--Optional SPI RAM module--     Required by UzeboxPC, UzeMOD etc.
 
 1   23LC1024-I/P-ND             IC SRAM 1MBIT SPI/QUAD 8DIP         (U6, not available from Farnell)
 
@@ -94,11 +94,15 @@ Parts sourced from Digikey, Farnell equivalent order codes are listed in square 
 
 
 
---Optional Uzenet Interface--
+--Optional Uzenet Interface--   Requires the SPI RAM module components
 
 1   https://vi.aliexpress.com/item/32264795859.html                 ESP-12F WiFi Module. Not available from Farnell. DigiKey uses non compat. firmware
 
 1   445-8417-ND                 CAP CER 1UF 16V X7R RADIAL          (C17)
+
+2   2057-2RS1-08-G-ND           RECEPTACLE STRIP 8P 2.0MM PITCH     (ESP12)
+
+2   952-2278-ND                 CONN HEADER VERT 8POS 2MM           (To solder onto ESP-12F WiFi module)
 
 
 
