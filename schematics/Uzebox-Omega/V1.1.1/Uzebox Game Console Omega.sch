@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -27024,7 +27025,7 @@ Low profile connectors, straight&lt;p&gt;
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
-<part name="MCU" library="avr-5" deviceset="MEGA164P/324P/644P-PU" device=""/>
+<part name="ATMEGA644A-PU" library="avr-5" deviceset="MEGA164P/324P/644P-PU" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="C9'" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="10uF"/>
 <part name="C3'" library="rcl" deviceset="C-US" device="025-025X050" value="100nF"/>
@@ -27128,7 +27129,7 @@ Low profile connectors, straight&lt;p&gt;
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="C17" library="adafruit" deviceset="CPOL-US" device="E2-4" value="1uF"/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
-<part name="X1" library="Thorsten_connectors" deviceset="MINI-DIN-9" device="" value="A/V"/>
+<part name="KMDGX-9S-N" library="Thorsten_connectors" deviceset="MINI-DIN-9" device="" value="A/V"/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="R4" library="resistor" deviceset="R-US_" device="0207/10" value="180"/>
 <part name="JP1" library="jumper" deviceset="JP2E" device=""/>
@@ -27176,7 +27177,7 @@ Low profile connectors, straight&lt;p&gt;
 <text x="-66.04" y="-33.02" size="1.778" layer="91">along with this work.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</text>
 <text x="269.24" y="-30.48" size="1.778" layer="91">Calibration print X=1.005</text>
 <text x="-66.04" y="-40.64" size="1.778" layer="91">Video DAC design and SD voltage dividers contributed by Clay Cowgill.</text>
-<text x="254.254" y="-41.402" size="2.54" layer="91">Omega (PCB rev 1.1)</text>
+<text x="254.254" y="-41.402" size="2.54" layer="91">Omega (PCB rev 1.1.1)</text>
 <text x="165.354" y="145.542" size="1.778" layer="91">Optional Uzenet Interface</text>
 <text x="-66.04" y="-48.26" size="1.778" layer="91">Added Mini-DIN SCART connector and some cleanup by Thorsten Erdmann (Bluescreen@trektech.de)</text>
 <wire x1="160.02" y1="129.54" x2="304.8" y2="129.54" width="0.1524" layer="94" style="dashdot"/>
@@ -27257,9 +27258,9 @@ Low profile connectors, straight&lt;p&gt;
 <instance part="SUPPLY3" gate="GND" x="144.78" y="71.12" smashed="yes">
 <attribute name="VALUE" x="142.875" y="67.945" size="1.778" layer="96"/>
 </instance>
-<instance part="MCU" gate="G$1" x="43.18" y="66.04" smashed="yes">
+<instance part="ATMEGA644A-PU" gate="G$1" x="43.18" y="66.04" smashed="yes">
 <attribute name="NAME" x="22.86" y="113.03" size="1.778" layer="95"/>
-<attribute name="VALUE" x="22.86" y="17.78" size="1.778" layer="96"/>
+<attribute name="VALUE" x="22.86" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY4" gate="GND" x="12.7" y="71.12" smashed="yes">
 <attribute name="VALUE" x="10.795" y="67.945" size="1.778" layer="96"/>
@@ -27568,7 +27569,10 @@ Low profile connectors, straight&lt;p&gt;
 <instance part="P+9" gate="1" x="302.26" y="182.88" smashed="yes">
 <attribute name="VALUE" x="299.72" y="177.8" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="X1" gate="G$1" x="279.4" y="-5.08"/>
+<instance part="KMDGX-9S-N" gate="G$1" x="279.4" y="-5.08" smashed="yes">
+<attribute name="NAME" x="288.29" y="3.81" size="1.778" layer="95"/>
+<attribute name="VALUE" x="288.29" y="-15.24" size="1.778" layer="94"/>
+</instance>
 <instance part="P+10" gate="1" x="271.78" y="20.32" smashed="yes">
 <attribute name="VALUE" x="269.24" y="15.24" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -27576,37 +27580,67 @@ Low profile connectors, straight&lt;p&gt;
 <attribute name="NAME" x="270.2814" y="8.89" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="275.082" y="8.89" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP1" gate="1" x="259.08" y="27.94"/>
+<instance part="JP1" gate="1" x="259.08" y="27.94" smashed="yes">
+<attribute name="NAME" x="255.27" y="27.94" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="264.795" y="27.94" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="+3V2" gate="G$1" x="154.94" y="177.8" smashed="yes">
 <attribute name="VALUE" x="157.48" y="180.848" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY23" gate="GND" x="289.56" y="-22.86" smashed="yes">
 <attribute name="VALUE" x="287.655" y="-26.035" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ1" gate="1" x="142.24" y="160.02"/>
-<instance part="SJ2" gate="1" x="142.24" y="154.94"/>
-<instance part="SJ3" gate="1" x="142.24" y="149.86"/>
-<instance part="SJ4" gate="1" x="142.24" y="165.1"/>
+<instance part="SJ1" gate="1" x="142.24" y="160.02" smashed="yes">
+<attribute name="NAME" x="139.7" y="162.56" size="1.778" layer="95"/>
+<attribute name="VALUE" x="139.7" y="156.21" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ2" gate="1" x="142.24" y="154.94" smashed="yes">
+<attribute name="NAME" x="139.7" y="157.48" size="1.778" layer="95"/>
+<attribute name="VALUE" x="139.7" y="151.13" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ3" gate="1" x="142.24" y="149.86" smashed="yes">
+<attribute name="NAME" x="139.7" y="152.4" size="1.778" layer="95"/>
+<attribute name="VALUE" x="139.7" y="146.05" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ4" gate="1" x="142.24" y="165.1" smashed="yes">
+<attribute name="NAME" x="139.7" y="167.64" size="1.778" layer="95"/>
+<attribute name="VALUE" x="139.7" y="161.29" size="1.778" layer="96"/>
+</instance>
 <instance part="C19" gate="G$1" x="-7.62" y="78.74" smashed="yes">
 <attribute name="NAME" x="-3.175" y="79.248" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-2.921" y="71.882" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CON1" gate="G$1" x="276.86" y="142.24"/>
+<instance part="CON1" gate="G$1" x="276.86" y="142.24" smashed="yes"/>
 <instance part="C13" gate="G$1" x="5.08" y="78.74" smashed="yes">
 <attribute name="NAME" x="9.525" y="79.248" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="9.779" y="71.882" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SV1" gate="1" x="25.4" y="167.64" rot="R180"/>
+<instance part="SV1" gate="1" x="25.4" y="167.64" smashed="yes" rot="R180">
+<attribute name="VALUE" x="29.21" y="175.26" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="29.21" y="161.798" size="1.778" layer="95" rot="R180"/>
+</instance>
 <instance part="P+8" gate="1" x="266.7" y="162.56" smashed="yes">
 <attribute name="VALUE" x="264.16" y="157.48" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY27" gate="GND" x="261.62" y="137.16" smashed="yes">
 <attribute name="VALUE" x="259.715" y="133.985" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ5" gate="1" x="251.46" y="152.4"/>
-<instance part="SJ6" gate="1" x="251.46" y="144.78"/>
-<instance part="SJ7" gate="G$1" x="88.9" y="73.66" rot="R180"/>
-<instance part="SJ8" gate="G$1" x="96.52" y="83.82" rot="R180"/>
+<instance part="SJ5" gate="1" x="251.46" y="152.4" smashed="yes">
+<attribute name="NAME" x="248.92" y="154.94" size="1.778" layer="95"/>
+<attribute name="VALUE" x="248.92" y="148.59" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ6" gate="1" x="251.46" y="144.78" smashed="yes">
+<attribute name="NAME" x="248.92" y="147.32" size="1.778" layer="95"/>
+<attribute name="VALUE" x="248.92" y="140.97" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ7" gate="G$1" x="88.9" y="73.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="86.36" y="73.279" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="86.36" y="75.565" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SJ8" gate="G$1" x="96.52" y="83.82" smashed="yes" rot="R180">
+<attribute name="NAME" x="93.98" y="83.439" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="93.98" y="85.725" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="R12" gate="G$1" x="12.7" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.2014" y="176.53" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="16.002" y="176.53" size="1.778" layer="96" rot="R90"/>
@@ -27614,14 +27648,20 @@ Low profile connectors, straight&lt;p&gt;
 <instance part="P+11" gate="1" x="12.7" y="187.96" smashed="yes">
 <attribute name="VALUE" x="10.16" y="182.88" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED2" gate="G$1" x="91.44" y="7.62"/>
+<instance part="LED2" gate="G$1" x="91.44" y="7.62" smashed="yes">
+<attribute name="NAME" x="95.504" y="13.462" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="95.758" y="0.762" size="1.27" layer="96" align="bottom-center"/>
+</instance>
 <instance part="P+12" gate="1" x="91.44" y="17.78" smashed="yes">
 <attribute name="VALUE" x="93.472" y="20.828" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY30" gate="GND" x="91.44" y="-2.54" smashed="yes">
 <attribute name="VALUE" x="89.535" y="-5.715" size="1.778" layer="96"/>
 </instance>
-<instance part="LED" gate="G$1" x="106.68" y="7.62" rot="R180"/>
+<instance part="LED" gate="G$1" x="106.68" y="7.62" smashed="yes" rot="R180">
+<attribute name="VALUE" x="115.57" y="15.24" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="115.57" y="1.778" size="1.778" layer="95" rot="R180"/>
+</instance>
 <instance part="P+13" gate="1" x="106.68" y="17.78" smashed="yes">
 <attribute name="VALUE" x="108.712" y="20.828" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -27645,7 +27685,7 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="C5'" gate="G$1" pin="1"/>
-<pinref part="X1" gate="G$1" pin="1"/>
+<pinref part="KMDGX-9S-N" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="30.48" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="5.08" x2="154.94" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="5.08" x2="154.94" y2="30.48" width="0.1524" layer="91"/>
@@ -27682,8 +27722,8 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="12.7" y1="76.2" x2="12.7" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
 <junction x="12.7" y="73.66"/>
-<pinref part="MCU" gate="G$1" pin="GND@2"/>
-<pinref part="MCU" gate="G$1" pin="GND@1"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="GND@2"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="GND@1"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="73.66" x2="5.08" y2="73.66" width="0.1524" layer="91"/>
@@ -27879,11 +27919,11 @@ Low profile connectors, straight&lt;p&gt;
 <junction x="210.82" y="152.4"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="G1"/>
+<pinref part="KMDGX-9S-N" gate="G$1" pin="G1"/>
 <pinref part="SUPPLY23" gate="GND" pin="GND"/>
 <wire x1="289.56" y1="-17.78" x2="289.56" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="G2"/>
-<pinref part="X1" gate="G$1" pin="G3"/>
+<pinref part="KMDGX-9S-N" gate="G$1" pin="G2"/>
+<pinref part="KMDGX-9S-N" gate="G$1" pin="G3"/>
 <junction x="289.56" y="-17.78"/>
 </segment>
 <segment>
@@ -27914,7 +27954,7 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="C4'" gate="G$1" pin="1"/>
-<pinref part="X1" gate="G$1" pin="3"/>
+<pinref part="KMDGX-9S-N" gate="G$1" pin="3"/>
 <wire x1="152.4" y1="53.34" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="0" x2="152.4" y2="0" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="0" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
@@ -27942,7 +27982,7 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="C3'" gate="G$1" pin="1"/>
-<pinref part="X1" gate="G$1" pin="7"/>
+<pinref part="KMDGX-9S-N" gate="G$1" pin="7"/>
 <wire x1="149.86" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="-10.16" x2="149.86" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-10.16" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
@@ -27965,7 +28005,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="114.3" y1="45.72" x2="68.58" y2="45.72" width="0.1524" layer="91"/>
 <label x="68.58" y="45.72" size="1.778" layer="95"/>
 <pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="MCU" gate="G$1" pin="(TOSC2/PCINT23)PC7"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(TOSC2/PCINT23)PC7"/>
 </segment>
 </net>
 <net name="BLUE1" class="0">
@@ -27975,7 +28015,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="116.84" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
 <label x="68.58" y="48.26" size="1.778" layer="95"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="MCU" gate="G$1" pin="(TOSC1/PCINT22)PC6"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(TOSC1/PCINT22)PC6"/>
 </segment>
 </net>
 <net name="GREEN2" class="0">
@@ -27985,7 +28025,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="119.38" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
 <label x="68.58" y="50.8" size="1.778" layer="95"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="MCU" gate="G$1" pin="(TDI/PCINT21)PC5"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(TDI/PCINT21)PC5"/>
 </segment>
 </net>
 <net name="GREEN1" class="0">
@@ -27993,7 +28033,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="121.92" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
 <label x="68.58" y="53.34" size="1.778" layer="95"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="MCU" gate="G$1" pin="(TDO/PCINT20)PC4"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(TDO/PCINT20)PC4"/>
 </segment>
 </net>
 <net name="GREEN0" class="0">
@@ -28002,7 +28042,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="121.92" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <label x="68.58" y="55.88" size="1.778" layer="95"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="MCU" gate="G$1" pin="(TMS/PCINT19)PC3"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(TMS/PCINT19)PC3"/>
 </segment>
 </net>
 <net name="RED2" class="0">
@@ -28012,7 +28052,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="119.38" y1="58.42" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
 <label x="68.58" y="58.42" size="1.778" layer="95"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="MCU" gate="G$1" pin="(TCK/PCINT18)PC2"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(TCK/PCINT18)PC2"/>
 </segment>
 </net>
 <net name="RED1" class="0">
@@ -28022,7 +28062,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="116.84" y1="60.96" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
 <label x="68.58" y="60.96" size="1.778" layer="95"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="MCU" gate="G$1" pin="(SDA/PCINT17)PC1"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(SDA/PCINT17)PC1"/>
 </segment>
 </net>
 <net name="RED0" class="0">
@@ -28032,7 +28072,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="114.3" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
 <label x="68.58" y="63.5" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="MCU" gate="G$1" pin="(SCL/PCINT16)PC0"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(SCL/PCINT16)PC0"/>
 </segment>
 </net>
 <net name="RED" class="0">
@@ -28067,7 +28107,7 @@ Low profile connectors, straight&lt;p&gt;
 <segment>
 <wire x1="68.58" y1="76.2" x2="81.28" y2="76.2" width="0.1524" layer="91"/>
 <label x="68.58" y="76.2" size="1.778" layer="95"/>
-<pinref part="MCU" gate="G$1" pin="(OC0B/!SS!/PCINT12)PB4"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(OC0B/!SS!/PCINT12)PB4"/>
 </segment>
 <segment>
 <wire x1="190.5" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
@@ -28079,7 +28119,7 @@ Low profile connectors, straight&lt;p&gt;
 <segment>
 <wire x1="68.58" y1="78.74" x2="81.28" y2="78.74" width="0.1524" layer="91"/>
 <label x="68.58" y="78.74" size="1.778" layer="95"/>
-<pinref part="MCU" gate="G$1" pin="(OC0A/AIN1/PCINT11)PB3"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(OC0A/AIN1/PCINT11)PB3"/>
 </segment>
 <segment>
 <wire x1="190.5" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
@@ -28098,7 +28138,7 @@ Low profile connectors, straight&lt;p&gt;
 <label x="224.79" y="96.774" size="1.778" layer="95"/>
 <pinref part="AD725" gate="G$1" pin="HSYNC"/>
 <label x="68.58" y="86.36" size="1.778" layer="95"/>
-<pinref part="MCU" gate="G$1" pin="(XCK0/T0/PCINT8)PB0"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(XCK0/T0/PCINT8)PB0"/>
 <wire x1="86.36" y1="104.14" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="86.36" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="104.14" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
@@ -28106,7 +28146,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="241.3" y1="104.14" x2="241.3" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="-5.08" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
 <junction x="157.48" y="104.14"/>
-<pinref part="X1" gate="G$1" pin="5"/>
+<pinref part="KMDGX-9S-N" gate="G$1" pin="5"/>
 <wire x1="279.4" y1="-5.08" x2="157.48" y2="-5.08" width="0.1524" layer="91"/>
 <label x="261.62" y="-5.08" size="1.778" layer="95"/>
 </segment>
@@ -28173,7 +28213,7 @@ Low profile connectors, straight&lt;p&gt;
 <junction x="0" y="101.6"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="XTAL" gate="G$1" pin="2"/>
-<pinref part="MCU" gate="G$1" pin="XTAL2"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="XTAL2"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -28184,13 +28224,13 @@ Low profile connectors, straight&lt;p&gt;
 <junction x="0" y="96.52"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="XTAL" gate="G$1" pin="1"/>
-<pinref part="MCU" gate="G$1" pin="XTAL1"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="XTAL1"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <wire x1="68.58" y1="0" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="MCU" gate="G$1" pin="(OC2A/PCINT31)PD7"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(OC2A/PCINT31)PD7"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -28208,7 +28248,7 @@ Low profile connectors, straight&lt;p&gt;
 <segment>
 <wire x1="68.58" y1="73.66" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
 <label x="68.58" y="73.66" size="1.778" layer="95"/>
-<pinref part="MCU" gate="G$1" pin="(MOSI/PCINT13)PB5"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(MOSI/PCINT13)PB5"/>
 </segment>
 <segment>
 <wire x1="-17.78" y1="152.4" x2="-17.78" y2="154.94" width="0.1524" layer="91"/>
@@ -28247,7 +28287,7 @@ Low profile connectors, straight&lt;p&gt;
 <segment>
 <wire x1="68.58" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 <label x="68.58" y="71.12" size="1.778" layer="95"/>
-<pinref part="MCU" gate="G$1" pin="(MISO/PCINT14)PB6"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(MISO/PCINT14)PB6"/>
 </segment>
 <segment>
 <wire x1="-35.56" y1="170.18" x2="17.78" y2="170.18" width="0.1524" layer="91"/>
@@ -28285,7 +28325,7 @@ Low profile connectors, straight&lt;p&gt;
 <segment>
 <wire x1="68.58" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
 <label x="68.58" y="68.58" size="1.778" layer="95"/>
-<pinref part="MCU" gate="G$1" pin="(SCK/PCINT15)PB7"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(SCK/PCINT15)PB7"/>
 </segment>
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
@@ -28320,7 +28360,7 @@ Low profile connectors, straight&lt;p&gt;
 <segment>
 <wire x1="68.58" y1="30.48" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="30.48" x2="81.28" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="MCU" gate="G$1" pin="(XCK1/OC1B/PCINT28)PD4"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(XCK1/OC1B/PCINT28)PD4"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="7.62" x2="81.28" y2="0" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="G$1" pin="DIN"/>
@@ -28354,7 +28394,7 @@ Low profile connectors, straight&lt;p&gt;
 <net name="CHROMA" class="0">
 <segment>
 <pinref part="R24'" gate="G$1" pin="1"/>
-<pinref part="X1" gate="G$1" pin="6"/>
+<pinref part="KMDGX-9S-N" gate="G$1" pin="6"/>
 <wire x1="279.4" y1="-7.62" x2="223.52" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="-7.62" x2="223.52" y2="40.64" width="0.1524" layer="91"/>
 <label x="261.62" y="-7.62" size="1.778" layer="95"/>
@@ -28470,9 +28510,9 @@ Low profile connectors, straight&lt;p&gt;
 <junction x="12.7" y="88.9"/>
 <junction x="12.7" y="81.28"/>
 <junction x="5.08" y="81.28"/>
-<pinref part="MCU" gate="G$1" pin="AREF"/>
-<pinref part="MCU" gate="G$1" pin="VCC"/>
-<pinref part="MCU" gate="G$1" pin="AVCC"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="AREF"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="VCC"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="AVCC"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
 <pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="81.28" x2="-7.62" y2="81.28" width="0.1524" layer="91"/>
@@ -28563,7 +28603,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="15.24" y1="124.46" x2="15.24" y2="121.92" width="0.1524" layer="91"/>
 <junction x="15.24" y="121.92"/>
 <junction x="12.7" y="121.92"/>
-<pinref part="MCU" gate="G$1" pin="!RESET"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="!RESET"/>
 <pinref part="RESET" gate="S" pin="2"/>
 <pinref part="RESET" gate="S" pin="1"/>
 <wire x1="17.78" y1="165.1" x2="12.7" y2="165.1" width="0.1524" layer="91"/>
@@ -28632,7 +28672,7 @@ Low profile connectors, straight&lt;p&gt;
 <segment>
 <wire x1="68.58" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
 <label x="69.342" y="25.654" size="1.778" layer="95"/>
-<pinref part="MCU" gate="G$1" pin="(OC2B/ICP/PCINT30)PD6"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(OC2B/ICP/PCINT30)PD6"/>
 </segment>
 <segment>
 <wire x1="-7.62" y1="152.4" x2="-7.62" y2="165.1" width="0.1524" layer="91"/>
@@ -28648,7 +28688,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="81.28" y1="101.6" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
 <junction x="81.28" y="137.16"/>
 <pinref part="SNES_P2" gate="G$1" pin="CLK"/>
-<pinref part="MCU" gate="G$1" pin="(ADC3/PCINT3)PA3"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(ADC3/PCINT3)PA3"/>
 <pinref part="SNES_P1" gate="G$1" pin="CLK"/>
 <wire x1="55.88" y1="175.26" x2="81.28" y2="175.26" width="0.1524" layer="91"/>
 <label x="55.88" y="175.26" size="1.778" layer="95"/>
@@ -28667,7 +28707,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="78.74" y1="104.14" x2="68.58" y2="104.14" width="0.1524" layer="91"/>
 <junction x="78.74" y="142.24"/>
 <pinref part="SNES_P2" gate="G$1" pin="LATCH"/>
-<pinref part="MCU" gate="G$1" pin="(ADC2/PCINT2)PA2"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(ADC2/PCINT2)PA2"/>
 <pinref part="SNES_P1" gate="G$1" pin="LATCH"/>
 <wire x1="55.88" y1="177.8" x2="78.74" y2="177.8" width="0.1524" layer="91"/>
 <label x="55.88" y="177.8" size="1.778" layer="95"/>
@@ -28683,7 +28723,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="60.96" y1="147.32" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="147.32" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="MCU" gate="G$1" pin="(ADC0/PCINT0)PA0"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(ADC0/PCINT0)PA0"/>
 <pinref part="SNES_P1" gate="G$1" pin="DATA"/>
 <wire x1="55.88" y1="180.34" x2="73.66" y2="180.34" width="0.1524" layer="91"/>
 <label x="55.88" y="180.34" size="1.778" layer="95"/>
@@ -28698,7 +28738,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="76.2" y1="147.32" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="106.68" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SNES_P2" gate="G$1" pin="DATA"/>
-<pinref part="MCU" gate="G$1" pin="(ADC1/PCINT1)PA1"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(ADC1/PCINT1)PA1"/>
 <wire x1="76.2" y1="147.32" x2="76.2" y2="180.34" width="0.1524" layer="91"/>
 <junction x="76.2" y="147.32"/>
 <wire x1="101.6" y1="180.34" x2="76.2" y2="180.34" width="0.1524" layer="91"/>
@@ -28716,9 +28756,9 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="AUDIO" gate="G$1" pin="SIG"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="-12.7" x2="271.78" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="8"/>
+<pinref part="KMDGX-9S-N" gate="G$1" pin="8"/>
 <wire x1="279.4" y1="-12.7" x2="271.78" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="9"/>
+<pinref part="KMDGX-9S-N" gate="G$1" pin="9"/>
 <wire x1="279.4" y1="-15.24" x2="271.78" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-15.24" x2="271.78" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="271.78" y="-12.7"/>
@@ -28732,7 +28772,7 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="ESP_RST" class="0">
 <segment>
-<pinref part="MCU" gate="G$1" pin="(TXD1/INT1/PCINT27)PD3"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(TXD1/INT1/PCINT27)PD3"/>
 <label x="68.58" y="33.02" size="1.778" layer="95"/>
 <pinref part="SJ8" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="33.02" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
@@ -28764,7 +28804,7 @@ Low profile connectors, straight&lt;p&gt;
 <net name="PD5" class="0">
 <segment>
 <wire x1="68.58" y1="27.94" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="MCU" gate="G$1" pin="(OC1A/PCINT29)PD5"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(OC1A/PCINT29)PD5"/>
 </segment>
 <segment>
 <wire x1="-45.72" y1="20.32" x2="-66.04" y2="20.32" width="0.1524" layer="91"/>
@@ -28775,7 +28815,7 @@ Low profile connectors, straight&lt;p&gt;
 <net name="PB2" class="0">
 <segment>
 <wire x1="68.58" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="MCU" gate="G$1" pin="(INT2/AIN0/PCINT10)PB2"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(INT2/AIN0/PCINT10)PB2"/>
 </segment>
 <segment>
 <wire x1="-38.1" y1="17.78" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
@@ -28786,7 +28826,7 @@ Low profile connectors, straight&lt;p&gt;
 <net name="PB1" class="0">
 <segment>
 <wire x1="68.58" y1="83.82" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="MCU" gate="G$1" pin="(CLKO/T1/PCINT9)PB1"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(CLKO/T1/PCINT9)PB1"/>
 </segment>
 <segment>
 <wire x1="-38.1" y1="20.32" x2="-20.32" y2="20.32" width="0.1524" layer="91"/>
@@ -28797,7 +28837,7 @@ Low profile connectors, straight&lt;p&gt;
 <net name="SPIRAM_EN" class="0">
 <segment>
 <wire x1="68.58" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="MCU" gate="G$1" pin="(ADC4/PCINT4)PA4"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(ADC4/PCINT4)PA4"/>
 <label x="68.58" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -28813,7 +28853,7 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="PA5" class="0">
 <segment>
-<pinref part="MCU" gate="G$1" pin="(ADC5/PCINT5)PA5"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(ADC5/PCINT5)PA5"/>
 <pinref part="SJ7" gate="G$1" pin="3"/>
 <wire x1="88.9" y1="78.74" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="96.52" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
@@ -28827,7 +28867,7 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="PA6" class="0">
 <segment>
-<pinref part="MCU" gate="G$1" pin="(ADC6/PCINT6)PA6"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(ADC6/PCINT6)PA6"/>
 <pinref part="SJ8" gate="G$1" pin="3"/>
 <wire x1="96.52" y1="88.9" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
@@ -28847,7 +28887,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="93.98" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="73.66" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 <junction x="99.06" y="73.66"/>
-<pinref part="MCU" gate="G$1" pin="(RXD1/INT0/PCINT26)PD2"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(RXD1/INT0/PCINT26)PD2"/>
 <pinref part="POWER" gate="S" pin="1"/>
 <pinref part="POWER" gate="S" pin="2"/>
 <pinref part="SJ7" gate="G$1" pin="2"/>
@@ -28865,7 +28905,7 @@ Low profile connectors, straight&lt;p&gt;
 <segment>
 <wire x1="68.58" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
 <label x="68.58" y="40.64" size="1.778" layer="95"/>
-<pinref part="MCU" gate="G$1" pin="(RXD0/PCINT24)PD0"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(RXD0/PCINT24)PD0"/>
 </segment>
 <segment>
 <wire x1="-38.1" y1="25.4" x2="-20.32" y2="25.4" width="0.1524" layer="91"/>
@@ -28882,7 +28922,7 @@ Low profile connectors, straight&lt;p&gt;
 <segment>
 <wire x1="68.58" y1="38.1" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
 <label x="68.58" y="38.1" size="1.778" layer="95"/>
-<pinref part="MCU" gate="G$1" pin="(TXD0/PCINT25)PD1"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(TXD0/PCINT25)PD1"/>
 </segment>
 <segment>
 <wire x1="-38.1" y1="22.86" x2="-20.32" y2="22.86" width="0.1524" layer="91"/>
@@ -28903,7 +28943,7 @@ Low profile connectors, straight&lt;p&gt;
 </segment>
 <segment>
 <wire x1="68.58" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="MCU" gate="G$1" pin="(ADC7/PCINT7)PA7"/>
+<pinref part="ATMEGA644A-PU" gate="G$1" pin="(ADC7/PCINT7)PA7"/>
 <label x="68.58" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -28914,7 +28954,7 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="2"/>
+<pinref part="KMDGX-9S-N" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="2.54" x2="271.78" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="2.54" x2="271.78" y2="7.62" width="0.1524" layer="91"/>
@@ -28947,7 +28987,7 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="CVBS/LUMA" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="4"/>
+<pinref part="KMDGX-9S-N" gate="G$1" pin="4"/>
 <pinref part="JP1" gate="1" pin="2"/>
 <wire x1="279.4" y1="-2.54" x2="259.08" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="-2.54" x2="259.08" y2="25.4" width="0.1524" layer="91"/>
