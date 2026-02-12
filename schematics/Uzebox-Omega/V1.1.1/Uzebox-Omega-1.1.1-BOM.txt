@@ -1,4 +1,4 @@
-Uzebox Omega v1.1.1 BOM - based upon the BOM of Uzebox v1.3.3. Last updated 15th November 2025.
+Uzebox Omega v1.1.1 BOM - based upon the BOM of Uzebox v1.3.3. Last updated 12th February 2026.
 
 Parts sourced from Digikey. Farnell equivalent order codes are listed in square brackets.
 
@@ -46,7 +46,7 @@ Parts sourced from Digikey. Farnell equivalent order codes are listed in square 
 
 1   ATMEGA644A-PU               IC MCU AVR 64K FLASH 40-DIP         (MCU) [1288340]
 
-1   MC7805ACTGOS-ND             IC REG POS 1A 5V                    (IC2) [9664505]
+1   497-1443-5-ND               IC REG LINEAR 5V 1.5A TO220         (IC2) [9664505]
 
 1   641-1310-1-ND               1N4001 DIODE RECTIFIER 1A 50V DO-41 (D1) [2822512]
 
