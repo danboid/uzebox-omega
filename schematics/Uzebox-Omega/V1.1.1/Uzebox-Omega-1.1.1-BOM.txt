@@ -130,7 +130,7 @@ Parts sourced elsewhere
 
 1   AD725ARZ                IC ENCODER RGB TO NTSC 16-SOIC (alternate, much cheaper source) (U2)    https://vi.aliexpress.com/item/33022801012.html
 
-2   SNES connectors         (Straight pin version) AliExpress.com   (SNESP1,SNESP2)                 Prefered model: https://vi.aliexpress.com/item/32828261927.html , alternative model: https://vi.aliexpress.com/item/32838396935.html
+2   SNES connectors         (Straight pin version) AliExpress.com   (SNESP1,SNESP2)                 Prefered, 180 degree model: https://www.aliexpress.com/item/32879502446.html , alternative 90 degree connector: https://vi.aliexpress.com/item/32838396935.html
 
 1   PCB                     JLCPCB.com PCB Manufacturing service                                    See the following on how to order: https://uzebox.org/forums/viewtopic.php?p=33217#p33217 or use PCBWay.com
 
