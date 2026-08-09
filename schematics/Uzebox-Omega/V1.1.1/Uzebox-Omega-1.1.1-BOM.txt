@@ -1,10 +1,10 @@
-Uzebox Omega v1.1.1 BOM - based upon the BOM of Uzebox v1.3.3. Last updated 26th April 2026.
+Uzebox Omega v1.1.1 BOM - based upon the BOM of Uzebox v1.3.3. Last updated 9th August 2026.
 
 Parts sourced from Digikey. Farnell equivalent order codes are listed in square brackets.
 
 -----------------------------------------------------------------------------------------
 
-1   2092-KMDGX-9S-N-ND          CONN RCPT FMALE MINI DIN 9P SLDR    (K2) [152392] or use MDC-209
+1   2092-KMDGX-9S-BS-1-ND       CONN RCPT FMALE MINI DIN 9P SLDR    (X1) [152392] or use MDC-209
 
 1   CP-1420-ND                  CONN RCA JACK R/A WHITE PCB         (AUDIO) [1280699] or [4066359] - Farnell only sell audio jacks for Omega v1.2+
 
@@ -128,7 +128,7 @@ Parts sourced elsewhere
 
 1   PRT-12769               SD/MMC Socket (Alternate source)        (SD/MMC)                        https://www.sparkfun.com/products/12769
 
-1   AD725ARZ                IC ENCODER RGB TO NTSC 16-SOIC (alternate, much cheaper source) (U2)    https://vi.aliexpress.com/item/33022801012.html
+1   AD725ARZ                IC ENCODER RGB TO NTSC 16-SOIC (alternate, much cheaper source) (U2)    https://vi.aliexpress.com/item/33022801012.html . AD725 is not recommended for the Omega.
 
 2   SNES connectors         (Straight pin version) AliExpress.com   (SNESP1,SNESP2)                 Prefered, 180 degree model: https://www.aliexpress.com/item/32879502446.html , alternative 90 degree connector: https://vi.aliexpress.com/item/32838396935.html
 
@@ -138,7 +138,7 @@ Parts sourced elsewhere
 
 1   SCART AV cable          RGB Scart cable for Sega Mega Drive 2                                   https://vi.aliexpress.com/item/1005007039881314.html , see https://uzebox.org/wiki/Uzebox_SCART_Interface#SCART_cables for more
 
-1   AVR programmer          USBASP USBISP AVR Programmer                                            https://vi.aliexpress.com/item/1005003210677989.html , be sure to buy one with 10 pin to 6 pin cable adapter
+1   AVR programmer          USBASP USBISP AVR Programmer                                            https://www.aliexpress.com/item/32670511994.html , be sure to buy one with 10 pin to 6 pin cable adapter
 
 
 * For R4, this BOM currently uses a 180 Ohm resistor from Digikey but a 162 Ohm resistor from Farnell, because Farnell UK currently only sell 180 Ohm resistors in batches of 10 or more. Any resistor from 150 to around 220 Ohms should suffice for R4.
