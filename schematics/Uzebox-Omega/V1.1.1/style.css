@@ -1,0 +1,12 @@
+/* Prevent rows from splitting across pages */
+tr {
+  page-break-inside: avoid !important;
+  break-inside: avoid !important;
+}
+
+/* Restrict image height so rows don't exceed page limits */
+table img {
+  max-height: 180px;
+  width: auto;
+  height: auto;
+}
