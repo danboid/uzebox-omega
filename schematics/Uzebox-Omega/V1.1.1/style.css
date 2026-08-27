@@ -13,6 +13,12 @@ h3 {
   margin-bottom: 0.4em;
 }
 
+/* Keep table rows intact across page breaks */
+tr {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
 /* Ensure images don't force unnecessary row breaks */
 table img {
   max-height: 140px; /* Reduced from 180px to save vertical room */
