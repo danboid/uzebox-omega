@@ -22,6 +22,6 @@
 	(fp_line (start -0.254 0) (end -0.254 0.762) (stroke (width 0.254) (type solid)) (layer "F.SilkS"))
 	(fp_line (start -0.254 0) (end -0.381 0) (stroke (width 0.1524) (type solid)) (layer "F.SilkS"))
 	(fp_line (start -0.381 0) (end -0.762 0) (stroke (width 0.1524) (type solid)) (layer "F.Fab"))
-	(pad "1" thru_hole roundrect (at -1.27 0) (size 1.3208 1.3208) (drill 0.8128) (layers "*.Cu" "*.Mask") (roundrect_rratio 0) (chamfer_ratio 0.2929) (chamfer top_left top_right bottom_left bottom_right))
-	(pad "2" thru_hole roundrect (at 1.27 0) (size 1.3208 1.3208) (drill 0.8128) (layers "*.Cu" "*.Mask") (roundrect_rratio 0) (chamfer_ratio 0.2929) (chamfer top_left top_right bottom_left bottom_right))
+	(pad "1" thru_hole circle (at -1.27 0) (size 1.3208 1.3208) (drill 0.8128) (layers "*.Cu" "*.Mask"))
+	(pad "2" thru_hole circle (at 1.27 0) (size 1.3208 1.3208) (drill 0.8128) (layers "*.Cu" "*.Mask"))
 )

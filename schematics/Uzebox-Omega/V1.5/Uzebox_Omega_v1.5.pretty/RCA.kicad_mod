@@ -21,6 +21,6 @@
 	(fp_line (start -3.35 -2.3) (end -3.35 -4) (stroke (width 0.127) (type solid)) (layer "F.SilkS"))
 	(pad "SIG" thru_hole circle (at 0 4.5) (size 3.81 3.81) (drill 2.3) (layers "*.Cu" "*.Mask"))
 	(pad "GND" thru_hole circle (at 0 0) (size 3.81 3.81) (drill 2.3) (layers "*.Cu" "*.Mask"))
-	(pad "" np_thru_hole circle (at -4.175 -3.15) (size 2.8 2.8) (drill 2.8) (layers "*.Cu" "*.Mask"))
-	(pad "" np_thru_hole circle (at 4.175 -3.15) (size 2.8 2.8) (drill 2.8) (layers "*.Cu" "*.Mask"))
+	(pad "" np_thru_hole circle (at -4.175 -3.15) (size 3.308 3.308) (drill 2.8) (layers "*.Cu" "*.Mask"))
+	(pad "" np_thru_hole circle (at 4.175 -3.15) (size 3.308 3.308) (drill 2.8) (layers "*.Cu" "*.Mask"))
 )
