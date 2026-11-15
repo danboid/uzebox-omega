@@ -1,0 +1,13 @@
+(footprint "0207_2V"
+	(version 20240108)
+	(generator "eagle2kicad_uzebox")
+	(layer "F.Cu")
+	(descr "RESISTOR type 0207, mounted standing up, grid 2.54 mm")
+	(property "Reference" "REF**" (at 1.27 -2.2) (layer "F.SilkS") (effects (font (size 1 1) (thickness 0.15))))
+	(property "Value" "0207_2V" (at 1.27 2.2) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+	(attr through_hole)
+	(fp_circle (center 0 0) (end 1.3 0) (stroke (width 0.1524) (type solid)) (fill none) (layer "F.SilkS"))
+	(fp_line (start 1.3 0) (end 1.7 0) (stroke (width 0.1524) (type solid)) (layer "F.SilkS"))
+	(pad "1" thru_hole circle (at 0 0) (size 1.4224 1.4224) (drill 0.9144) (layers "*.Cu" "*.Mask"))
+	(pad "2" thru_hole circle (at 2.54 0) (size 1.4224 1.4224) (drill 0.9144) (layers "*.Cu" "*.Mask"))
+)
