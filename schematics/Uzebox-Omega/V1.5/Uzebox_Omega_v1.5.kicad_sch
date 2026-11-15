@@ -592,7 +592,7 @@
 						(type none)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "RING"
@@ -610,7 +610,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "RING_SW"
@@ -628,7 +628,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "TIP"
@@ -877,7 +877,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 17.78 0 180)
 					(length 5.08)
 					(name "HOLD/SIO3"
@@ -6746,7 +6746,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 10.16 -12.7 90)
 					(length 5.08)
 					(name "G1"
@@ -6764,7 +6764,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 10.16 -12.7 90)
 					(length 5.08)
 					(name "G2"
@@ -6782,7 +6782,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 10.16 -12.7 90)
 					(length 5.08)
 					(name "G3"
@@ -8720,7 +8720,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -12.7 -15.24 0)
 					(length 5.08)
 					(name "SH"
@@ -8738,7 +8738,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -12.7 -12.7 0)
 					(length 5.08)
 					(name "SH"
@@ -10087,7 +10087,7 @@
 						(justify left bottom)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -5.08 10.16 0)
 					(length 5.08)
 					(name "3V3"
@@ -10105,7 +10105,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -5.08 12.7 0)
 					(length 5.08)
 					(name "5V"
@@ -10123,7 +10123,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -5.08 2.54 0)
 					(length 5.08)
 					(name "DTR"
@@ -10141,7 +10141,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 5.08)
 					(name "GND"
@@ -10159,7 +10159,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -5.08 5.08 0)
 					(length 5.08)
 					(name "RXI"
@@ -10177,7 +10177,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -5.08 7.62 0)
 					(length 5.08)
 					(name "TXO"
@@ -10644,7 +10644,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 17.78 -10.16 180)
 					(length 5.08)
 					(name "GPIO15"
@@ -10932,7 +10932,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 17.78 -10.16 180)
 					(length 5.08)
 					(name "GPIO15"
@@ -11654,6 +11654,103 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Uzebox_Omega_v1.5-eagle-import:PWR_FLAG"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Copyright (c)  Alec Bourque, Belogic"
 		(exclude_from_sim no)
@@ -12349,16 +12446,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 139.7) (xy 200.66 139.7)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0095a479-6d34-44f2-b6ba-acb5fb895b9d")
-	)
-	(wire
-		(pts
 			(xy 223.52 266.7) (xy 238.76 266.7)
 		)
 		(stroke
@@ -12459,7 +12546,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 195.58) (xy 71.12 195.58)
+			(xy 53.34 195.58) (xy 60.96 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -12569,16 +12656,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 45.72) (xy 381 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0ce90239-382a-4c06-86d5-8529cffb1a55")
-	)
-	(wire
-		(pts
 			(xy 281.94 137.16) (xy 261.62 137.16)
 		)
 		(stroke
@@ -12639,7 +12716,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 190.5) (xy 71.12 190.5)
+			(xy 53.34 190.5) (xy 60.96 190.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -12769,16 +12846,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 38.1) (xy 381 38.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "21093b39-5ff9-4d94-8dd4-9c024971f33a")
-	)
-	(wire
-		(pts
 			(xy 104.14 149.86) (xy 109.22 149.86)
 		)
 		(stroke
@@ -12796,16 +12863,6 @@
 			(type solid)
 		)
 		(uuid "22ba63de-fabc-432a-803d-18a44cbf1736")
-	)
-	(wire
-		(pts
-			(xy 160.02 185.42) (xy 162.56 185.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "22d2d585-d2aa-4f00-9bb0-7fb4b0ed37ec")
 	)
 	(wire
 		(pts
@@ -12976,16 +13033,6 @@
 			(type solid)
 		)
 		(uuid "2e869687-5038-441b-8b9b-c2ff10923c18")
-	)
-	(wire
-		(pts
-			(xy 160.02 124.46) (xy 162.56 124.46)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2ff5b818-4b31-4021-9e1f-750724e315d4")
 	)
 	(wire
 		(pts
@@ -13179,7 +13226,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 177.8) (xy 71.12 177.8)
+			(xy 53.34 177.8) (xy 60.96 177.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -13306,16 +13353,6 @@
 			(type solid)
 		)
 		(uuid "46d5f5bd-7990-4e59-b296-568053141742")
-	)
-	(wire
-		(pts
-			(xy 160.02 149.86) (xy 172.72 149.86)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "475fbee6-f8b8-4b5e-ab37-58e0383efb7d")
 	)
 	(wire
 		(pts
@@ -13589,7 +13626,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 193.04) (xy 71.12 193.04)
+			(xy 53.34 193.04) (xy 60.96 193.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -13629,7 +13666,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 187.96) (xy 71.12 187.96)
+			(xy 53.34 187.96) (xy 60.96 187.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -13676,16 +13713,6 @@
 			(type solid)
 		)
 		(uuid "5db2a44d-a9e0-442d-a498-3320e36c10bd")
-	)
-	(wire
-		(pts
-			(xy 160.02 132.08) (xy 162.56 132.08)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5ddb34d2-fb20-45b5-aaaa-b88e5d5bc008")
 	)
 	(wire
 		(pts
@@ -13899,7 +13926,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 198.12) (xy 71.12 198.12)
+			(xy 53.34 198.12) (xy 60.96 198.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -14089,7 +14116,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 175.26) (xy 71.12 175.26)
+			(xy 53.34 175.26) (xy 60.96 175.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -14229,16 +14256,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 147.32) (xy 172.72 147.32)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7d39e039-71f3-42c8-80af-d613adc5dd42")
-	)
-	(wire
-		(pts
 			(xy 210.82 172.72) (xy 160.02 172.72)
 		)
 		(stroke
@@ -14259,7 +14276,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 198.12) (xy 170.18 198.12)
+			(xy 160.02 198.12) (xy 161.29 198.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -14417,16 +14434,6 @@
 		)
 		(uuid "8b0d045e-7bc9-4531-aa3d-a54684e8a63b")
 	)
-	(wire
-		(pts
-			(xy 375.92 35.56) (xy 381 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8b570ce5-c6a6-4e79-a854-e06ce1e639e4")
-	)
 	(polyline
 		(pts
 			(xy 312.42 27.94) (xy 312.42 91.44)
@@ -14439,7 +14446,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 172.72) (xy 71.12 172.72)
+			(xy 53.34 172.72) (xy 60.96 172.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -14599,16 +14606,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 53.34) (xy 299.72 53.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "947910c5-16dd-4362-8956-ccb98ae04921")
-	)
-	(wire
-		(pts
 			(xy 132.08 48.26) (xy 132.08 53.34)
 		)
 		(stroke
@@ -14706,16 +14703,6 @@
 			(type solid)
 		)
 		(uuid "9a41c11a-e88a-47cc-b8bb-109e5a3411df")
-	)
-	(wire
-		(pts
-			(xy 375.92 48.26) (xy 381 48.26)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9c098c23-9be1-49c4-b5f0-48cf0e78d2ae")
 	)
 	(wire
 		(pts
@@ -14949,16 +14936,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 63.5) (xy 302.26 63.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ab888a54-ca92-41ce-b157-51eed01a06dc")
-	)
-	(wire
-		(pts
 			(xy 363.22 238.76) (xy 363.22 236.22)
 		)
 		(stroke
@@ -15009,7 +14986,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 200.66) (xy 71.12 200.66)
+			(xy 53.34 200.66) (xy 60.96 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -15209,16 +15186,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 152.4) (xy 172.72 152.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bc4d0e0b-9010-4e94-bef9-998027e4c495")
-	)
-	(wire
-		(pts
 			(xy 243.84 73.66) (xy 238.76 73.66)
 		)
 		(stroke
@@ -15239,7 +15206,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 170.18) (xy 71.12 170.18)
+			(xy 53.34 170.18) (xy 60.96 170.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -15719,26 +15686,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 55.88) (xy 299.72 55.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d9cfba06-59a0-4d3b-b38a-ffed728b556e")
-	)
-	(wire
-		(pts
-			(xy 160.02 154.94) (xy 172.72 154.94)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "daac0b71-98d8-4485-b270-1bf9ad14f0d9")
-	)
-	(wire
-		(pts
 			(xy 264.16 160.02) (xy 243.84 160.02)
 		)
 		(stroke
@@ -15789,16 +15736,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 182.88) (xy 162.56 182.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e0c5e18c-eed0-41ff-9e0e-8c35f3240ae2")
-	)
-	(wire
-		(pts
 			(xy 243.84 170.18) (xy 223.52 170.18)
 		)
 		(stroke
@@ -15819,7 +15756,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 71.12) (xy 83.82 58.42)
+			(xy 83.82 71.12) (xy 83.82 66.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -15869,7 +15806,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 205.74) (xy 71.12 205.74)
+			(xy 53.34 205.74) (xy 60.96 205.74)
 		)
 		(stroke
 			(width 0.1524)
@@ -15949,16 +15886,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 144.78) (xy 172.72 144.78)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ef8e5f42-4b19-446a-a776-64db08bed18a")
-	)
-	(wire
-		(pts
 			(xy 124.46 55.88) (xy 132.08 55.88)
 		)
 		(stroke
@@ -15989,7 +15916,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 203.2) (xy 71.12 203.2)
+			(xy 53.34 203.2) (xy 60.96 203.2)
 		)
 		(stroke
 			(width 0.1524)
@@ -17011,17 +16938,17 @@
 	)
 	(global_label "PB1"
 		(shape bidirectional)
-		(at 160.02 139.7 180)
+		(at 162.56 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "649a9a7a-61f1-4ac3-b08b-d149adecb383")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.7435 139.7 0)
+			(at 162.56 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17029,7 +16956,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -17323,17 +17250,17 @@
 	)
 	(global_label "PD5"
 		(shape bidirectional)
-		(at 160.02 195.58 180)
+		(at 162.56 195.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "85f14a24-d8e0-41f2-a9d0-dbf7ae3f8635")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.7435 195.58 0)
+			(at 162.56 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17341,7 +17268,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -18451,17 +18378,17 @@
 	)
 	(global_label "PB2"
 		(shape bidirectional)
-		(at 160.02 142.24 180)
+		(at 162.56 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fef5f62a-f988-4ab4-b658-0f88f360ed6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.7435 142.24 0)
+			(at 162.56 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18469,7 +18396,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -29833,6 +29760,549 @@
 			(project "Uzebox_Omega_v1.5"
 				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
 					(reference "SNES_P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 45.72 78.74)
+		(uuid "f4947309-94f5-4a72-853f-ed79b4211558")
+	)
+	(no_connect
+		(at 45.72 81.28)
+		(uuid "1a2fc27e-9fed-480e-9ea9-71226eec4133")
+	)
+	(no_connect
+		(at 45.72 91.44)
+		(uuid "f6d8df48-9134-48f2-9f5c-26c7593cdb7a")
+	)
+	(no_connect
+		(at 45.72 93.98)
+		(uuid "206c8064-2c67-4b63-a0f9-3d9f77e23965")
+	)
+	(no_connect
+		(at 203.2 259.08)
+		(uuid "d6c1f6a8-293b-4e46-9411-7f0eb0297f95")
+	)
+	(no_connect
+		(at 259.08 55.88)
+		(uuid "2052c5fc-4e4b-43d8-a2fa-24a7d44a01f1")
+	)
+	(no_connect
+		(at 294.64 58.42)
+		(uuid "2db5ffd3-21cd-4281-866d-77ac9a874dc9")
+	)
+	(no_connect
+		(at 294.64 60.96)
+		(uuid "c54e3e1f-553c-4368-b8f3-6369a7490c05")
+	)
+	(no_connect
+		(at 294.64 66.04)
+		(uuid "5cdc78cc-7e3b-4e8a-9955-373ff3d31df1")
+	)
+	(no_connect
+		(at 363.22 71.12)
+		(uuid "dcb4ac69-8e83-4b8d-8b1e-d11c0ce86042")
+	)
+	(no_connect
+		(at 363.22 78.74)
+		(uuid "01402a3b-6557-43e4-9b66-0f9736adcf79")
+	)
+	(no_connect
+		(at 375.92 43.18)
+		(uuid "6a80ef4d-aa02-4438-aaec-9110b77f1c48")
+	)
+	(symbol
+		(lib_id "Uzebox_Omega_v1.5-eagle-import:+5V")
+		(at 304.8 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d908629-51d5-4960-bcd9-e5aad9dcccc0")
+		(property "Reference" "#P+14"
+			(at 304.8 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 302.26 248.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1266501-654d-49de-bb1c-c3e75e853843")
+		)
+		(instances
+			(project "Uzebox_Omega_v1.5"
+				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
+					(reference "#P+14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 304.8 246.38) (xy 314.96 246.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fa8dbeb6-6e33-4471-9375-d809f4a00d58")
+	)
+	(symbol
+		(lib_id "Uzebox_Omega_v1.5-eagle-import:PWR_FLAG")
+		(at 314.96 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c444bbc8-9c40-4f8f-be05-1e7caa5bdc39")
+		(property "Reference" "#FLG1"
+			(at 314.96 244.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 314.96 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 314.96 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d48b51c8-267d-470b-932b-a6aa79c7b83f")
+		)
+		(instances
+			(project "Uzebox_Omega_v1.5"
+				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
+					(reference "#FLG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Uzebox_Omega_v1.5-eagle-import:+3V3")
+		(at 322.58 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa50c42f-e0cb-4782-be59-5fc7cf246522")
+		(property "Reference" "#+3V4"
+			(at 322.58 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 327.152 241.554 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccd63de0-0835-486d-a408-bc5cecb20222")
+		)
+		(instances
+			(project "Uzebox_Omega_v1.5"
+				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
+					(reference "#+3V4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 322.58 246.38) (xy 332.74 246.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae7e9e1c-6489-422f-bad8-05bf356c4b05")
+	)
+	(symbol
+		(lib_id "Uzebox_Omega_v1.5-eagle-import:PWR_FLAG")
+		(at 332.74 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e872496-5412-4645-99b9-53cc0d7d6076")
+		(property "Reference" "#FLG2"
+			(at 332.74 244.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 332.74 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 332.74 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a5c5e9d-b5ea-4cc7-8e3a-b1f457930761")
+		)
+		(instances
+			(project "Uzebox_Omega_v1.5"
+				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
+					(reference "#FLG2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Uzebox_Omega_v1.5-eagle-import:GND")
+		(at 340.36 248.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db6b3ce9-f453-44ed-9267-a0664a7475d3")
+		(property "Reference" "#SUPPLY33"
+			(at 340.36 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 338.455 252.095 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "571923d7-0715-4faf-af18-7ce573722417")
+		)
+		(instances
+			(project "Uzebox_Omega_v1.5"
+				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
+					(reference "#SUPPLY33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 340.36 246.38) (xy 350.52 246.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d09846cd-a6aa-4a1a-a89e-633f787f09c5")
+	)
+	(symbol
+		(lib_id "Uzebox_Omega_v1.5-eagle-import:PWR_FLAG")
+		(at 350.52 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2e074b9-4a4b-4c8b-bdc1-00931b301d3e")
+		(property "Reference" "#FLG3"
+			(at 350.52 244.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 350.52 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 350.52 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd7a72b4-90dd-4115-a51f-dfeb443f2b4b")
+		)
+		(instances
+			(project "Uzebox_Omega_v1.5"
+				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
+					(reference "#FLG3")
 					(unit 1)
 				)
 			)

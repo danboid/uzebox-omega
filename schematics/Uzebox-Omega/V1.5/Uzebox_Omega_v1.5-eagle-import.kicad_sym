@@ -826,7 +826,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name "RING"
@@ -844,7 +844,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
 				(name "RING_SW"
@@ -862,7 +862,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 5.08 2.54 180)
 				(length 2.54)
 				(name "TIP"
@@ -1111,7 +1111,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at 17.78 0 180)
 				(length 5.08)
 				(name "HOLD/SIO3"
@@ -82155,7 +82155,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 10.16 -12.7 90)
 				(length 5.08)
 				(name "G1"
@@ -82173,7 +82173,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 10.16 -12.7 90)
 				(length 5.08)
 				(name "G2"
@@ -82191,7 +82191,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 10.16 -12.7 90)
 				(length 5.08)
 				(name "G3"
@@ -103225,7 +103225,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -12.7 -15.24 0)
 				(length 5.08)
 				(name "SH"
@@ -103243,7 +103243,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -12.7 -12.7 0)
 				(length 5.08)
 				(name "SH"
@@ -105889,7 +105889,7 @@
 					(justify left bottom)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -5.08 10.16 0)
 				(length 5.08)
 				(name "3V3"
@@ -105907,7 +105907,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -5.08 12.7 0)
 				(length 5.08)
 				(name "5V"
@@ -105925,7 +105925,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -5.08 2.54 0)
 				(length 5.08)
 				(name "DTR"
@@ -105943,7 +105943,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -5.08 0 0)
 				(length 5.08)
 				(name "GND"
@@ -105961,7 +105961,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -5.08 5.08 0)
 				(length 5.08)
 				(name "RXI"
@@ -105979,7 +105979,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -5.08 7.62 0)
 				(length 5.08)
 				(name "TXO"
@@ -107021,7 +107021,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at 17.78 -10.16 180)
 				(length 5.08)
 				(name "GPIO15"
@@ -107309,7 +107309,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at 17.78 -10.16 180)
 				(length 5.08)
 				(name "GPIO15"
@@ -148665,6 +148665,103 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PWR_FLAG"
+		(power global)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name "pwr"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
