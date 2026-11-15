@@ -107569,6 +107569,7 @@
 			(at 0.54 -12.94 90)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "98ede458-7dcf-454f-9656-255d29a90660")
 			(effects
 				(font
@@ -124260,14 +124261,6 @@
 		(layer "F.Cu")
 		(net "+5V")
 		(uuid "eef8c2e6-8cd7-4ec6-8dac-6e64f3f408f9")
-	)
-	(via
-		(at 188.6711 79.4636)
-		(size 0.9048)
-		(drill 0.6)
-		(layers "F.Cu" "B.Cu")
-		(net "+5V")
-		(uuid "150345fd-816a-4084-8382-4aa7e12cbc59")
 	)
 	(via
 		(at 155.6511 79.4636)
