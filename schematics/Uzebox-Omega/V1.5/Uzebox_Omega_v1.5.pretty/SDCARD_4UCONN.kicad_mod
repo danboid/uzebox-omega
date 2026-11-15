@@ -3,7 +3,7 @@
 	(generator "eagle2kicad_uzebox")
 	(layer "F.Cu")
 	(descr "4UConn part#19646")
-	(property "Reference" "REF**" (at 0.54 -12.94) (layer "F.SilkS") (effects (font (size 0.4064 0.4064) (thickness 0.05)) (justify bottom left)))
+	(property "Reference" "REF**" (at 0.54 -12.94) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.1)) (justify bottom left)))
 	(property "Value" "SDCARD_4UCONN" (at 0.54 -11.67) (layer "F.Fab") (effects (font (size 0.4064 0.4064) (thickness 0.05)) (justify bottom left)))
 	(attr smd)
 	(pad "1" smd rect (at -1 -6.77) (size 1.8 0.9) (layers "F.Cu" "F.Paste" "F.Mask"))
