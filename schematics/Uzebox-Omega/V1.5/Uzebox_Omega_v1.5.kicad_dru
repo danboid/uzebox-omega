@@ -1,0 +1,8 @@
+(version 1)
+
+# The SNES controller sockets straddle the board edge: their solder pads run right up to it by design.
+(rule "SNES connector pads reach the board edge"
+	(condition "A.memberOfFootprint('SNES_P?') || B.memberOfFootprint('SNES_P?')")
+	(constraint edge_clearance (min 0mm))
+	(severity ignore)
+)
