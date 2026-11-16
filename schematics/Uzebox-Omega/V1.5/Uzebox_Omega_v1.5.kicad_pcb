@@ -95,9 +95,9 @@
 		(at 160.7311 87.0836 90)
 		(descr "RESISTOR type 0207, grid 10 mm")
 		(property "Reference" "R11"
-			(at -2.42 0.77 90)
+			(at -1.92 0.77 90)
 			(layer "F.SilkS")
-			(uuid "5e147ee4-cca6-4869-afe7-4405dd067ce0")
+			(uuid "95e91d3f-a417-446c-99a4-a1f630188af3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,7 +109,7 @@
 		(property "Value" "75"
 			(at -2.2606 0.635 90)
 			(layer "F.Fab")
-			(uuid "0468a9e0-8f7e-43c7-8160-334573d089d5")
+			(uuid "6785ed96-c895-4c97-8882-bd11bf6ffb92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,7 +122,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e6a41847-bb13-4718-ab29-927c6f9471ca")
+			(uuid "b77550cc-3e5f-4b72-b0a2-bc0ee0cba655")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133,7 +133,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9a85293-20ba-4d32-9495-ffb183f2bf84")
+			(uuid "6076aa8f-e660-4174-8ffc-e4019db02c69")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +2644,7 @@
 		(at 131.5211 78.8286 180)
 		(descr "RESISTOR type 0207, mounted standing up, grid 2.54 mm")
 		(property "Reference" "R13"
-			(at 1.27 -2.2 180)
+			(at 2.52 -1.675 180)
 			(layer "F.SilkS")
 			(uuid "9da91173-c23d-43a1-9269-e1d15dc6f76d")
 			(effects
@@ -3814,12 +3814,12 @@
 		(uuid "3692f34e-4b5a-4519-9245-9e2241ffc81e")
 		(at 149.3011 139.1536 180)
 		(property "Reference" "LED2"
-			(at 0 -2.54 0)
+			(at 4.8 1.15 0)
 			(layer "F.SilkS")
 			(uuid "ff0f3ea7-9de6-4591-bfc5-74d8a48300b2")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.1016)
 				)
 				(justify top)
@@ -4295,7 +4295,7 @@
 				(font
 					(face "Mallanna")
 					(size 1.27 1.27)
-					(thickness 0.2)
+					(thickness 0.127)
 				)
 				(justify right top)
 			)
@@ -6489,7 +6489,7 @@
 		(at 158.1911 87.0836 90)
 		(descr "RESISTOR type 0207, grid 10 mm")
 		(property "Reference" "R19"
-			(at -2.42 0.81 90)
+			(at -1.92 0.81 90)
 			(layer "F.SilkS")
 			(uuid "81c3d54a-ffdb-4097-b17a-965618e26a9f")
 			(effects
@@ -8667,6 +8667,7 @@
 		(property "Reference" "JP4"
 			(at -1.3462 -1.8288 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fd8290e2-c901-47b5-ac65-17b3f019d6a1")
 			(effects
 				(font
@@ -10182,6 +10183,7 @@
 		(property "Reference" "JP5"
 			(at -1.3462 -1.8288 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b2b0470c-acd8-4eb4-917c-c646a480dac2")
 			(effects
 				(font
@@ -17024,12 +17026,12 @@
 		(at 149.3011 142.9636)
 		(descr "LED 3 mm, round")
 		(property "Reference" "LED1"
-			(at 1.905 -0.381 0)
+			(at 1.7 2.04 0)
 			(layer "F.SilkS")
 			(uuid "399b0d9b-412c-4a21-bb14-37bc3ceef5bb")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.127)
 				)
 				(justify left bottom)
@@ -107321,7 +107323,7 @@
 		(at 135.3311 95.9736 -90)
 		(descr "ELECTROLYTIC CAPACITOR grid 2.54 mm, diameter 6 mm")
 		(property "Reference" "C8"
-			(at 3.53 -1.524 180)
+			(at 3.03 -3.17 180)
 			(layer "F.SilkS")
 			(uuid "4df905d1-0f07-4046-802f-c0ed18d7e9b8")
 			(effects
