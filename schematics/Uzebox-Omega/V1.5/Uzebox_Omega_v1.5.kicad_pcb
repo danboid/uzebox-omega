@@ -111786,6 +111786,7 @@
 		(property "Reference" "CON1"
 			(at -4.46 0 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "51385059-4d06-46ae-8621-4721975e1662")
 			(effects
 				(font
