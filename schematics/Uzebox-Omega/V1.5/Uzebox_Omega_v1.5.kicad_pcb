@@ -8898,7 +8898,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "301"
+		(property "Value" "10K"
 			(at -2.2606 0.635 0)
 			(layer "F.Fab")
 			(uuid "ca8cd79c-1192-4d98-a8a9-a35e07277fc6")

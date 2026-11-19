@@ -19426,7 +19426,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "301"
+		(property "Value" "10K"
 			(at 107.442 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
