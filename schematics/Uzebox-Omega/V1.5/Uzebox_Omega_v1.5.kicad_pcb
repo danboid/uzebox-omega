@@ -122021,14 +122021,6 @@
 		(uuid "f976f54a-cb7e-447c-a526-c29073d0e545")
 	)
 	(via
-		(at 164.5411 109.3086)
-		(size 0.9048)
-		(drill 0.6)
-		(layers "F.Cu" "B.Cu")
-		(net "GND")
-		(uuid "0462c49b-eefe-4de7-94f8-5a54f48a8768")
-	)
-	(via
 		(at 164.5411 97.8786)
 		(size 0.9048)
 		(drill 0.6)
