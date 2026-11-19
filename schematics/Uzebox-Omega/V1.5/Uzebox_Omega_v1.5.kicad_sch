@@ -11751,6 +11751,225 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Uzebox_Omega_v1.5-eagle-import:SCHOTTKY-DIODEDO35-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -2.286 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.286 -3.429 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Uzebox_Omega_v1.5:DO35-10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SCHOTTKY-DIODEDO35-7_1_0"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.016) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Copyright (c)  Alec Bourque, Belogic"
 		(exclude_from_sim no)
@@ -12299,12 +12518,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cad58c69-1cf2-4f8b-8c56-14307801f646")
-	)
-	(junction
-		(at 246.38 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d26cccac-b0cd-4180-9b01-8736cf3b94fc")
 	)
 	(junction
 		(at 73.66 86.36)
@@ -13658,16 +13871,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 96.52) (xy 55.88 96.52)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5e2ca2ee-1c9a-4c89-bc67-cbed5f44649b")
-	)
-	(wire
-		(pts
 			(xy 187.96 139.7) (xy 193.04 139.7)
 		)
 		(stroke
@@ -14218,7 +14421,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 83.82) (xy 83.82 81.28)
+			(xy 83.82 83.82) (xy 83.82 78.74)
 		)
 		(stroke
 			(width 0.1524)
@@ -15298,7 +15501,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 58.42) (xy 246.38 58.42)
+			(xy 259.08 58.42) (xy 256.54 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -15618,7 +15821,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 71.12) (xy 83.82 66.04)
+			(xy 83.82 73.66) (xy 83.82 66.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -16822,7 +17025,7 @@
 			)
 		)
 	)
-	(global_label "PA6"
+	(global_label "ESP_EN"
 		(shape bidirectional)
 		(at 25.4 195.58 0)
 		(fields_autoplaced yes)
@@ -17854,7 +18057,7 @@
 			)
 		)
 	)
-	(global_label "PA6"
+	(global_label "ESP_EN"
 		(shape bidirectional)
 		(at 187.96 134.62 90)
 		(fields_autoplaced yes)
@@ -18048,7 +18251,7 @@
 	)
 	(global_label "SPIRAM_EN"
 		(shape bidirectional)
-		(at 375.92 35.56 0)
+		(at 388.62 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25328,7 +25531,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Uzebox_Omega_v1.5-eagle-import:R-US_0207/10")
+		(lib_id "Uzebox_Omega_v1.5-eagle-import:SCHOTTKY-DIODEDO35-7")
 		(at 83.82 76.2 90)
 		(unit 1)
 		(body_style 1)
@@ -25338,8 +25541,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f49d96d-8443-4f29-86a3-a23f3dc38339")
-		(property "Reference" "R26"
-			(at 82.3214 80.01 0)
+		(property "Reference" "D2"
+			(at 86.36 75.565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25349,8 +25552,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "301"
-			(at 87.122 80.01 0)
+		(property "Value" "BAT85"
+			(at 86.36 79.375 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25360,7 +25563,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Uzebox_Omega_v1.5:0207_10"
+		(property "Footprint" "Uzebox_Omega_v1.5:DO35-10"
 			(at 83.82 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -25382,7 +25585,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky Diode"
 			(at 83.82 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -25393,24 +25596,24 @@
 				)
 			)
 		)
-		(pin "1"
+		(pin "A"
 			(uuid "09701b78-79bd-44bc-ae36-74077284278b")
 		)
-		(pin "2"
+		(pin "C"
 			(uuid "1748fec2-f9a2-4ba6-a9c0-51a2cc2d9a41")
 		)
 		(instances
 			(project "Uzebox_Omega_v1.5"
 				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
-					(reference "R26")
+					(reference "D2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Uzebox_Omega_v1.5-eagle-import:GND")
-		(at 83.82 106.68 0)
+		(lib_id "Uzebox_Omega_v1.5-eagle-import:+3V3")
+		(at 83.82 106.68 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25418,8 +25621,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a3f27ebe-beb0-4986-8514-f981a8be9600")
-		(property "Reference" "#SUPPLY25"
+		(uuid "719c51ff-1cb1-4b2b-b0d0-2b0e580c9d60")
+		(property "Reference" "#+3V5"
 			(at 83.82 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -25430,15 +25633,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 81.915 109.855 0)
+		(property "Value" "+3V3"
+			(at 84.455 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Footprint" ""
@@ -25475,12 +25678,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "68cf5651-0cc9-4590-97f5-cf127ceb779e")
+			(uuid "420d78d4-c068-44ca-9e8d-e3d30830a117")
 		)
 		(instances
 			(project "Uzebox_Omega_v1.5"
 				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
-					(reference "#SUPPLY25")
+					(reference "#+3V5")
 					(unit 1)
 				)
 			)
@@ -28285,7 +28488,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "562"
+		(property "Value" "3.16K"
 			(at 87.122 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30277,6 +30480,489 @@
 			(justify left bottom)
 		)
 		(uuid "6774e1d7-f496-4ef3-a7d8-dded404abbf5")
+	)
+	(symbol
+		(lib_id "Uzebox_Omega_v1.5-eagle-import:R-US_0207/10")
+		(at 50.8 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5a7774f-18e0-4244-bb33-6559a7db4dbe")
+		(property "Reference" "R14"
+			(at 46.99 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "301"
+			(at 52.07 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Uzebox_Omega_v1.5:0207_2V"
+			(at 50.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a38ce17-fc99-4ba2-8e15-e9b16ac4d487")
+		)
+		(pin "2"
+			(uuid "4d7c55a0-4e35-4fd5-b067-2b63f29dd411")
+		)
+		(instances
+			(project "Uzebox_Omega_v1.5"
+				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Uzebox_Omega_v1.5-eagle-import:R-US_0207/10")
+		(at 381.0 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1b99022-3768-4622-a42f-771ccfbd9a37")
+		(property "Reference" "R15"
+			(at 383.54 29.845 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.16K"
+			(at 383.54 33.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Uzebox_Omega_v1.5:0207_10"
+			(at 381.0 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381.0 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 381.0 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a833b4a-aa0b-4dbb-a2af-9ec2019978bc")
+		)
+		(pin "2"
+			(uuid "e19c835f-80fd-4415-8a2f-c4054406055e")
+		)
+		(instances
+			(project "Uzebox_Omega_v1.5"
+				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Uzebox_Omega_v1.5-eagle-import:+5V")
+		(at 381.0 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f53d549-3657-48de-9046-3951454b7174")
+		(property "Reference" "#P+15"
+			(at 381.0 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 101.6 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 381.0 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381.0 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 381.0 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1615884d-60fb-4a76-903e-402a99747d7a")
+		)
+		(instances
+			(project "Uzebox_Omega_v1.5"
+				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
+					(reference "#P+15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 375.92 35.56) (xy 381.0 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fb32f9-b037-41e7-aa76-c745ada6b8ed")
+	)
+	(wire
+		(pts
+			(xy 381.0 35.56) (xy 388.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66e76ce-1ea5-4253-b22c-4bb97b6c62e0")
+	)
+	(junction
+		(at 381.0 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0466aced-2d44-4aa7-8143-8265f5d4f8bc")
+	)
+	(global_label "ESP_EN"
+		(shape bidirectional)
+		(at 256.54 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "f9d43068-dabd-4981-a68c-a975598a043a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Uzebox_Omega_v1.5-eagle-import:R-US_0207/10")
+		(at 233.68 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bcdd2403-e3ee-4af9-89d5-fbd04a2cd8af")
+		(property "Reference" "R16"
+			(at 236.22 45.085 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.16K"
+			(at 236.22 48.895 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Uzebox_Omega_v1.5:0207_10"
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7d5c38d-a8da-4a42-bd76-2e2479cb7b13")
+		)
+		(pin "2"
+			(uuid "db9f98aa-a2cf-4cbb-bba9-484d9e3267b5")
+		)
+		(instances
+			(project "Uzebox_Omega_v1.5"
+				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Uzebox_Omega_v1.5-eagle-import:GND")
+		(at 233.68 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e3305e4-bea1-478c-ad65-08482db6fcce")
+		(property "Reference" "#SUPPLY34"
+			(at 233.68 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.315 188.595 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8d082bc-4181-431f-b03a-2c8ced04e6da")
+		)
+		(instances
+			(project "Uzebox_Omega_v1.5"
+				(path "/175eb34b-3948-4005-9e19-bdb4f7340532"
+					(reference "#SUPPLY34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "ESP_EN"
+		(shape bidirectional)
+		(at 228.6 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "13665238-77aa-4078-8018-033555bb1970")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 228.6 40.64) (xy 233.68 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff72729-e7ca-4986-93ca-68ff84cf0145")
 	)
 	(sheet_instances
 		(path "/"

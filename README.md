@@ -36,6 +36,8 @@ The module has to be soldered to the bottom side of the PCB under the SD card so
 There are two solder jumpers near the module. They are open by default. So the module is connected to nothing, only to 5V for power supply.
 If you close these jumpers the serial lines of the module will be connected to the second serial port of the AVR CPU. Because these are used by the standard Uzebox power button and ESP_RST pin there are two solder jumper which may connect these to PA5 and PA6 instead. This would need a software modification for software that uses the power button or the ESP_RST pin.
 
+On the v1.5 board PA6 is used as ESP_EN, as on the Uzebox V5.1: it drives the ESP-12's EN pin (with a 3.16 kΩ pull-down, R16), so software must set PA6 high to switch the module on. If you move the ESP reset with SJ8 (cut 1-2, bridge 2-3), the ESP's RESET is tied to ESP_EN, so PA6 then both enables and resets the module.
+
 These jumpers are connected by a small wire in compatibility position. Without cutting these lines everything is like the original Uzebox.
 
 ## Instructions for WS2812 LED
