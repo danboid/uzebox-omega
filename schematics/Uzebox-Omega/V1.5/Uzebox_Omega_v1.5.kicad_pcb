@@ -111312,7 +111312,7 @@
 		(at 177.2411 118.8336)
 		(descr "Solder jumper")
 		(property "Reference" "SJ4"
-			(at -1.651 1.143 0)
+			(at 1.651 -0.762 0)
 			(layer "B.SilkS")
 			(uuid "e1e109ed-ac25-42bf-ba28-15ce7d26a156")
 			(effects
@@ -111534,7 +111534,7 @@
 		(at 148.0311 109.9436 180)
 		(descr "Solder jumper")
 		(property "Reference" "SJ7"
-			(at -2.413 1.27 0)
+			(at 1.03 -3.06 0)
 			(layer "B.SilkS")
 			(uuid "7c2057fd-fe59-4f88-8879-224f20e5bceb")
 			(effects
@@ -111784,7 +111784,7 @@
 		(uuid "486d6f3d-4524-41c8-86be-5d75197a868e")
 		(at 175.9711 84.5436 90)
 		(property "Reference" "CON1"
-			(at 0 0 90)
+			(at -4.46 0 90)
 			(layer "B.SilkS")
 			(uuid "51385059-4d06-46ae-8621-4721975e1662")
 			(effects
@@ -111944,7 +111944,7 @@
 		(at 155.6511 109.9436 180)
 		(descr "Solder jumper")
 		(property "Reference" "SJ8"
-			(at -2.413 1.27 0)
+			(at -1.35 -3.06 0)
 			(layer "B.SilkS")
 			(uuid "537dff59-b549-46f2-96be-224312b853ef")
 			(effects
@@ -112195,7 +112195,7 @@
 		(at 181.0511 88.3536 90)
 		(descr "Solder jumper")
 		(property "Reference" "SJ6"
-			(at -1.651 1.143 90)
+			(at -5.15 -1.05 90)
 			(layer "B.SilkS")
 			(uuid "fec4c838-00c9-4f39-9d24-e28177a850bf")
 			(effects
@@ -112417,7 +112417,7 @@
 		(at 177.2411 116.2936)
 		(descr "Solder jumper")
 		(property "Reference" "SJ1"
-			(at -1.651 1.143 0)
+			(at 1.651 -0.762 0)
 			(layer "B.SilkS")
 			(uuid "94ea0212-1c1e-4ed6-b061-4802cfc4377f")
 			(effects
@@ -112639,7 +112639,7 @@
 		(at 177.2411 113.7536)
 		(descr "Solder jumper")
 		(property "Reference" "SJ2"
-			(at -1.651 1.143 0)
+			(at 1.651 -0.762 0)
 			(layer "B.SilkS")
 			(uuid "7aadb1c5-1297-4944-a477-7924b9939927")
 			(effects
@@ -112861,7 +112861,7 @@
 		(at 183.5911 88.3536 90)
 		(descr "Solder jumper")
 		(property "Reference" "SJ5"
-			(at -1.651 1.143 90)
+			(at -5.15 -0.59 90)
 			(layer "B.SilkS")
 			(uuid "eaaa8fe0-1984-4700-8551-eb9ec2548648")
 			(effects
@@ -113083,7 +113083,7 @@
 		(at 177.2411 111.2136)
 		(descr "Solder jumper")
 		(property "Reference" "SJ3"
-			(at -1.651 1.143 0)
+			(at 1.651 -0.762 0)
 			(layer "B.SilkS")
 			(uuid "2159958e-4c22-4fd0-afd4-c331f60103ff")
 			(effects
