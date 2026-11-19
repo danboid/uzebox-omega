@@ -6470,7 +6470,7 @@
 		(at 143.5861 126.4536 180)
 		(descr "CAPACITOR grid 2.5 mm, outline 2.5 x 5 mm")
 		(property "Reference" "C1"
-			(at -1.54 -1.335 0)
+			(at -0.915 2.95 0)
 			(layer "F.SilkS")
 			(uuid "90b5877c-1205-4c43-a244-52e53b7f2fa2")
 			(effects
@@ -7014,7 +7014,7 @@
 		(at 119.3611 131.5336)
 		(descr "OMRON SWITCH")
 		(property "Reference" "RESET"
-			(at -2.54 -3.81 0)
+			(at -2.86 -3.81 0)
 			(layer "F.SilkS")
 			(uuid "31af2e92-a972-4b33-930c-fd3878c73a8f")
 			(effects
@@ -11439,7 +11439,7 @@
 		(at 175.9711 131.5336)
 		(descr "OMRON SWITCH")
 		(property "Reference" "POWER"
-			(at -2.97 -3.81 0)
+			(at -3.47 -3.81 0)
 			(layer "F.SilkS")
 			(uuid "9a7778c7-cc63-4b8f-9b88-b404410a4623")
 			(effects
@@ -111062,7 +111062,7 @@
 		(at 160.1911 126.4536)
 		(descr "CAPACITOR grid 2.5 mm, outline 2.5 x 5 mm")
 		(property "Reference" "C2"
-			(at -1.19 3.05 0)
+			(at -1.19 -1.45 0)
 			(layer "F.SilkS")
 			(uuid "1cd8d642-4fc1-4ec6-b5c2-60037dc65760")
 			(effects
@@ -122013,7 +122013,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Uzebox designed by Alec Bourque aka Uze\nOmega SCART version by Thorsten Erdmann and Dan MacDonald\n\n\nhttps://uzebox.org/wiki/Omega"
+	(gr_text "Uzebox designed by Alec {dblquote}Uze{dblquote} Bourque\nOmega SCART version by Thorsten Erdmann and Dan MacDonald\n\n\nhttps://uzebox.org/wiki/Omega"
 		(at 171.0011 139.5036 0)
 		(layer "B.SilkS")
 		(uuid "56120244-0adb-469a-9a4e-d606a67d639a")
